@@ -43,8 +43,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 **Screenshot(s):**
 
 -screenshot(s) van hoe ver je bent-
-![homepage](images/homepage_week1)
-![homepage](images/gamepage_week1)
+![homepage](images/homepage_week1.png)
+![homepage](images/gamepage_week1.png)
 
 ### Agenda voor meeting
 

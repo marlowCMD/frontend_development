@@ -1,91 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 834.5 2128.4" style="enable-background:new 0 0 834.5 2128.4;" xml:space="preserve">
+	 viewBox="0 0 1728.1 2128.4" style="enable-background:new 0 0 1728.1 2128.4;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;stroke:#00983A;stroke-width:4;stroke-miterlimit:10;}
-	.st1{fill:none;}
-	.st2{fill:#00983A;}
-	.st3{font-family:'ArialMT';}
-	.st4{font-size:24px;}
-	.st5{font-size:28px;}
-	.st6{font-size:34.0321px;}
+	.st0{fill:#00983A;}
+	.st1{font-family:'ArialMT';}
+	.st2{font-size:28px;}
+	.st3{font-size:34.0321px;}
+	.st4{fill:none;stroke:#00983A;stroke-width:4;stroke-miterlimit:10;}
+	.st5{font-size:24px;}
+	.st6{fill:none;}
 </style>
-<text transform="matrix(1 0 0 1 992.1199 109.5056)" class="st2 st3 st5">header</text>
-<text transform="matrix(1 0 0 1 904.7283 51.1573)" class="st3 st6">Home Pagina</text>
+<text transform="matrix(1 0 0 1 992.1199 109.5056)" class="st0 st1 st2">header</text>
+<text transform="matrix(1 0 0 1 904.7283 51.1573)" class="st1 st3">Home Pagina</text>
 <image style="overflow:visible;opacity:0.85;enable-background:new    ;" width="450" height="667" xlink:href="62ED448F.jpg"  transform="matrix(0.9983 0 0 0.9983 992.4333 121.1429)">
 </image>
-<rect x="992.2" y="121.3" class="st0" width="449.4" height="76.2"/>
-<rect x="999.9" y="131.2" class="st0" width="48.3" height="39.8"/>
-<text transform="matrix(1 0 0 1 1055.2849 149.1758)" class="st2 st3 st4">img</text>
-<rect x="1130" y="131.2" class="st0" width="171.6" height="58.3"/>
-<text transform="matrix(1 0 0 1 1308.6514 150.6918)" class="st2 st3 st4">a &gt; img</text>
+<rect x="992.2" y="121.3" class="st4" width="449.4" height="76.2"/>
+<rect x="999.9" y="131.2" class="st4" width="48.3" height="39.8"/>
+<text transform="matrix(1 0 0 1 1055.2849 149.1758)" class="st0 st1 st5">img</text>
+<rect x="1130" y="131.2" class="st4" width="171.6" height="58.3"/>
+<text transform="matrix(1 0 0 1 1308.6514 150.6918)" class="st0 st1 st5">a &gt; img</text>
 <image style="overflow:visible;opacity:0.85;enable-background:new    ;" width="448" height="400" xlink:href="62ED448D.jpg"  transform="matrix(0.9976 0 0 0.9976 992.5718 788.0377)">
 </image>
-<rect x="996.2" y="805.9" class="st0" width="315.6" height="37.8"/>
-<text transform="matrix(1 0 0 1 1320.1923 832.4957)" class="st2 st3 st5">h2</text>
-<rect x="994.8" y="423.5" class="st0" width="443.9" height="44.6"/>
-<text transform="matrix(1 0 0 1 924.7916 455.8689)" class="st2 st3 st5">input</text>
-<text transform="matrix(1 0 0 1 1359.2561 452.0748)" class="st2 st3 st4">img</text>
-<rect x="994.4" y="468.1" class="st0" width="446.5" height="313.7"/>
-<text transform="matrix(1 0 0 1 910.1465 493.5466)" class="st2 st3 st4">a &gt; img</text>
-<rect x="1002.5" y="850.2" class="st0" width="430.5" height="245.3"/>
-<text transform="matrix(1 0 0 1 907.5673 869.8726)" class="st2 st3 st4">a &gt; img</text>
-<text transform="matrix(1 0 0 1 1301.3245 1141.902)" class="st2 st3 st4">img</text>
-<text transform="matrix(1 0 0 1 1089.2532 1140.8812)" class="st2 st3 st4">img</text>
-<rect x="998.5" y="1114.6" class="st0" width="83.6" height="40.3"/>
-<rect x="1349.4" y="1114" class="st0" width="83.6" height="40.3"/>
-<rect x="1000.8" y="209.4" class="st0" width="154.7" height="206.3"/>
-<text transform="matrix(1 0 0 1 1164.4165 262.9703)" class="st2 st3 st4">nav &gt; ul &gt; li &gt; a</text>
+<rect x="996.2" y="805.9" class="st4" width="315.6" height="37.8"/>
+<text transform="matrix(1 0 0 1 1320.1923 832.4957)" class="st0 st1 st2">h2</text>
+<rect x="994.8" y="423.5" class="st4" width="443.9" height="44.6"/>
+<text transform="matrix(1 0 0 1 924.7916 455.8689)" class="st0 st1 st2">input</text>
+<text transform="matrix(1 0 0 1 1359.2561 452.0748)" class="st0 st1 st5">img</text>
+<rect x="994.4" y="468.1" class="st4" width="446.5" height="313.7"/>
+<text transform="matrix(1 0 0 1 910.1465 493.5466)" class="st0 st1 st5">a &gt; img</text>
+<rect x="1002.5" y="850.2" class="st4" width="430.5" height="245.3"/>
+<text transform="matrix(1 0 0 1 907.5673 869.8726)" class="st0 st1 st5">a &gt; img</text>
+<text transform="matrix(1 0 0 1 1301.3245 1141.902)" class="st0 st1 st5">img</text>
+<text transform="matrix(1 0 0 1 1089.2532 1140.8812)" class="st0 st1 st5">img</text>
+<rect x="998.5" y="1114.6" class="st4" width="83.6" height="40.3"/>
+<rect x="1349.4" y="1114" class="st4" width="83.6" height="40.3"/>
+<rect x="1000.8" y="209.4" class="st4" width="154.7" height="206.3"/>
+<text transform="matrix(1 0 0 1 1164.4165 262.9703)" class="st0 st1 st5">nav &gt; ul &gt; li &gt; a</text>
 <image style="overflow:visible;enable-background:new    ;" width="449" height="719" xlink:href="62ED4482.jpg"  transform="matrix(0.9984 0 0 0.9984 990.9062 1195.2842)">
 </image>
-<rect x="991.8" y="1259.4" class="st0" width="445.1" height="652.6"/>
-<text transform="matrix(1 0 0 1 1451.1261 1281.8104)" class="st2 st3 st4">section &gt; ul &gt; li &gt; a </text>
-<text transform="matrix(1 0 0 1 1451.1261 1310.6104)" class="st2 st3 st4">&gt; img</text>
-<text transform="matrix(1 0 0 1 1451.1261 1339.4104)" class="st2 st3 st4">&gt; p</text>
-<rect x="991.8" y="1211.5" class="st0" width="445.2" height="43.7"/>
-<text transform="matrix(1 0 0 1 1453.0931 1230.3347)" class="st2 st3 st4">nav &gt; ul &gt; li </text>
-<rect x="1432.7" y="1110.9" class="st1" width="9.2" height="8.6"/>
-<text transform="matrix(1 0 0 1 927.9268 228.1234)" class="st2 st3 st5">main</text>
+<rect x="991.8" y="1259.4" class="st4" width="445.1" height="652.6"/>
+<text transform="matrix(1 0 0 1 1451.1261 1281.8104)" class="st0 st1 st5">section &gt; ul &gt; li &gt; a </text>
+<text transform="matrix(1 0 0 1 1451.1261 1310.6104)" class="st0 st1 st5">&gt; img</text>
+<text transform="matrix(1 0 0 1 1451.1261 1339.4104)" class="st0 st1 st5">&gt; p</text>
+<rect x="991.8" y="1211.5" class="st4" width="445.2" height="43.7"/>
+<text transform="matrix(1 0 0 1 1453.0931 1230.3347)" class="st0 st1 st5">nav &gt; ul &gt; li </text>
+<rect x="1432.7" y="1110.9" class="st6" width="9.2" height="8.6"/>
+<text transform="matrix(1 0 0 1 927.9268 228.1234)" class="st0 st1 st2">main</text>
 <image style="overflow:visible;opacity:0.85;enable-background:new    ;" width="452" height="553" xlink:href="62ED4486.jpg"  transform="matrix(0.998 0 0 0.998 114.957 202.5293)">
 </image>
-<rect x="120" y="207.6" class="st0" width="292.7" height="26.9"/>
-<text transform="matrix(1 0 0 1 53.2945 231.5355)" class="st2 st3 st4">ul &gt; li </text>
-<text transform="matrix(1 0 0 1 53.2945 260.3356)" class="st2 st3 st4">&gt; a </text>
-<rect x="120" y="235.8" class="st0" width="167.9" height="41.2"/>
-<text transform="matrix(1 0 0 1 296.0356 267.215)" class="st2 st3 st5">h1</text>
-<rect x="392.7" y="234.8" class="st0" width="163.7" height="40.3"/>
-<text transform="matrix(1 0 0 1 372.0255 265.8726)" class="st2 st3 st5">a</text>
-<rect x="133.3" y="297.6" class="st0" width="404.2" height="188.9"/>
-<text transform="matrix(1 0 0 1 65.4847 319.4608)" class="st2 st3 st5">img</text>
-<rect x="120" y="235.9" class="st0" width="439.9" height="510.4"/>
-<text transform="matrix(1 0 0 1 37.07 195.9457)" class="st2 st3 st5">article</text>
+<rect x="120" y="207.6" class="st4" width="292.7" height="26.9"/>
+<text transform="matrix(1 0 0 1 53.2945 231.5355)" class="st0 st1 st5">ul &gt; li </text>
+<text transform="matrix(1 0 0 1 53.2945 260.3356)" class="st0 st1 st5">&gt; a </text>
+<rect x="120" y="235.8" class="st4" width="167.9" height="41.2"/>
+<text transform="matrix(1 0 0 1 296.0356 267.215)" class="st0 st1 st2">h1</text>
+<rect x="392.7" y="234.8" class="st4" width="163.7" height="40.3"/>
+<text transform="matrix(1 0 0 1 372.0255 265.8726)" class="st0 st1 st2">a</text>
+<rect x="133.3" y="297.6" class="st4" width="404.2" height="188.9"/>
+<text transform="matrix(1 0 0 1 65.4847 319.4608)" class="st0 st1 st2">img</text>
+<rect x="120" y="235.9" class="st4" width="439.9" height="510.4"/>
+<text transform="matrix(1 0 0 1 37.07 195.9457)" class="st0 st1 st2">article</text>
 <image style="overflow:visible;opacity:0.85;enable-background:new    ;" width="450" height="385" xlink:href="62ED4487.jpg"  transform="matrix(0.9976 0 0 0.9976 116.1734 754.3909)">
 </image>
-<rect x="118" y="754.1" class="st0" width="445.8" height="382.3"/>
-<text transform="matrix(1 0 0 1 22.2167 779.9518)" class="st2 st3 st5">section</text>
-<text transform="matrix(1 0 0 1 22.2167 813.5518)" class="st2 st3 st5">&gt; img </text>
-<rect x="134.2" y="720.5" class="st0" width="389.9" height="23"/>
-<text transform="matrix(1 0 0 1 135.6411 702.0389)" class="st2 st3 st5">ul &gt; li &gt; a </text>
+<rect x="118" y="754.1" class="st4" width="445.8" height="382.3"/>
+<text transform="matrix(1 0 0 1 22.2167 779.9518)" class="st0 st1 st2">section</text>
+<text transform="matrix(1 0 0 1 22.2167 813.5518)" class="st0 st1 st2">&gt; img </text>
+<rect x="134.2" y="720.5" class="st4" width="389.9" height="23"/>
+<text transform="matrix(1 0 0 1 135.6411 702.0389)" class="st0 st1 st2">ul &gt; li &gt; a </text>
 <image style="overflow:visible;enable-background:new    ;" width="780" height="207" xlink:href="4C4AE763.jpg"  transform="matrix(0.5787 0 0 0.5787 115.4191 85.1015)">
 </image>
-<text transform="matrix(1 0 0 1 28.1779 51.1573)" class="st3 st6">Game Pagina</text>
+<text transform="matrix(1 0 0 1 28.1779 51.1573)" class="st1 st3">Game Pagina</text>
 <image style="overflow:visible;opacity:0.85;enable-background:new    ;" width="449" height="125" xlink:href="4C4AE761.jpg"  transform="matrix(0.9974 0 0 0.9974 116.6212 1138.6321)">
 </image>
-<rect x="140.6" y="1169.9" class="st0" width="223.3" height="36"/>
-<text transform="matrix(1 0 0 1 376.5546 1195.8199)" class="st2 st3 st5">h1</text>
-<rect x="390.4" y="1213.5" class="st0" width="146.9" height="44.7"/>
-<text transform="matrix(1 0 0 1 559.8584 1255.8835)" class="st2 st3 st5"> button</text>
+<rect x="140.6" y="1169.9" class="st4" width="223.3" height="36"/>
+<text transform="matrix(1 0 0 1 376.5546 1195.8199)" class="st0 st1 st2">h1</text>
+<rect x="390.4" y="1213.5" class="st4" width="146.9" height="44.7"/>
+<text transform="matrix(1 0 0 1 559.8584 1255.8835)" class="st0 st1 st2"> button</text>
 <image style="overflow:visible;opacity:0.85;enable-background:new    ;" width="451" height="833" xlink:href="4C4AE767.jpg"  transform="matrix(0.9986 0 0 0.9986 114.593 1258.4305)">
 </image>
-<rect x="119.5" y="1263" class="st0" width="444.8" height="823.9"/>
-<text transform="matrix(1 0 0 1 34.7513 1293.887)" class="st2 st3 st5">article</text>
-<text transform="matrix(1 0 0 1 289.9331 1292.9712)" class="st2 st3 st5">h2</text>
-<text transform="matrix(1 0 0 1 134.633 1333.3625)" class="st2 st3 st5">img</text>
-<rect x="121.5" y="1269.2" class="st0" width="161.8" height="27.8"/>
-<rect x="126.1" y="1306.1" class="st0" width="427.4" height="232"/>
-<rect x="124.6" y="1833.7" class="st0" width="434.9" height="94.8"/>
-<text transform="matrix(1 0 0 1 130.7721 1862.4468)" class="st2 st3 st5">img</text>
-<text transform="matrix(1 0 0 1 127.2851 1570.9623)" class="st2 st3 st5">p</text>
-<text transform="matrix(1 0 0 1 45.9449 1957.1298)" class="st2 st3 st5">ul &gt; li</text>
+<rect x="119.5" y="1263" class="st4" width="444.8" height="823.9"/>
+<text transform="matrix(1 0 0 1 34.7513 1293.887)" class="st0 st1 st2">article</text>
+<text transform="matrix(1 0 0 1 289.9331 1292.9712)" class="st0 st1 st2">h2</text>
+<text transform="matrix(1 0 0 1 134.633 1333.3625)" class="st0 st1 st2">img</text>
+<rect x="121.5" y="1269.2" class="st4" width="161.8" height="27.8"/>
+<rect x="126.1" y="1306.1" class="st4" width="427.4" height="232"/>
+<rect x="124.6" y="1833.7" class="st4" width="434.9" height="94.8"/>
+<text transform="matrix(1 0 0 1 130.7721 1862.4468)" class="st0 st1 st2">img</text>
+<text transform="matrix(1 0 0 1 127.2851 1570.9623)" class="st0 st1 st2">p</text>
+<text transform="matrix(1 0 0 1 45.9449 1957.1298)" class="st0 st1 st2">ul &gt; li</text>
 </svg>
