@@ -43,6 +43,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 **Screenshot(s):**
 
 -screenshot(s) van hoe ver je bent-
+
 ![homepage](images/homepage_week1.png)
 ![homepage](images/gamepage_week1.png)
 
@@ -94,4 +95,4 @@ Oefening 2.2: https://codepen.io/marlowcmd/pen/MWyBYOL
 
 **Breakdown-schets(en):**
 
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/steamsketch.svg)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/steamsketch.png)
