@@ -1,5 +1,88 @@
 /* CSS Document */
+/* steam colors via https://colorswall.com/palette/193/ */
+
 *, *::after, *::before {
   box-sizing:border-box;  
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
+body {
+  background-color: #2a475e;
+  color: #c7d5e0;
+}
+
+header {
+  background-color: #171a21;
+}
+
+header nav {
+  padding: 0.8em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header nav img {
+  width: 2.2em;
+}
+
+header nav a img {
+  width: 9.5em;
+}
+
+a {
+  color: #66c0f4;
+}
+
+img {
+  width: 345.6px;
+  margin: auto;
+}
+
+h2:nth-of-type(1) {
+  margin: 1.2em auto 0.3em 0.2em;
+}
+
+li {
+  list-style-type: none;
+}
+
+section:nth-of-type(1) a img {
+  margin: auto;
+}
+
+section:nth-of-type(1) ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+#sale {
+  background-color: #66c0f4;
+}
+
+section:nth-of-type(2) button {
+  color: white;
+  padding: .5em;
+  background-color: transparent;
+  text-transform: uppercase;
+}
+
+section:nth-of-type(2) h3, p {
+  color: #FFFFFF;
+}
+
+section:nth-of-type(2) ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+section:nth-of-type(3) ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section:nth-of-type(3) ul li button{
+
+  background-color: #66c0f4; 
+}

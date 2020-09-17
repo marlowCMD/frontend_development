@@ -3,17 +3,97 @@
 	
 <head>
 	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
+	<meta name="author" content="Marlow">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	<title>Naam van je site en/of pagina</title>
+	<title>Welkom bij Steam</title>
 	
 	<link href="styles/style.css" rel="stylesheet">
 </head>
 
 <body>
-
+	<header>
+		<!-- logo, hamburger menu en zoekbalk -->
+		<nav>
+			<img src="images/steammenu.png" alt="menu">
+			<a href="index.html"><img src="images/steamlogo.png" alt="Steam Logo"></a>
+			<input type="text">
+		</nav>
+	</header>
+	<main>
+		<!-- carousel met uitgelichte games -->
+		<section>
+			<h2>Uitgelicht en aanbevolen</h2>
+			<a href="game.html"><img src="images/AmongUsBanner.png" alt="Among Us banner"></a>
+			<ul>
+				<li>
+					<button><</button>
+				</li>
+				<li>
+					<button>></button>
+				</li>
+			</ul>
+		</section>
+		<!-- carousel met sales -->
+		<section>
+			<h2>Speciale aanbiedingen</h2>
+			<button>Meer weergeven</button>
+			<div id="sale">
+				<img src="images/salegame1.jpg" alt="Game Sale">
+				<h3>Midweek madness</h3>
+				<p>-30%</p>
+				<p>€39,99</p>
+				<p>€27,99</p>
+			</div>
+			<ul>
+				<li>
+					<button><</button>
+				</li>
+				<li>
+					<button>></button>
+				</li>
+			</ul>
+			<!-- Filter blokken -->
+		</section>
+		<section>
+			<h2>Steam doorzoeken</h2>
+			<ul>
+				<li><button>Nieuwe uitgaven</button></li>
+				<li><button>Aanbiedingen</button></li>
+				<li><button>Gratis Spellen</button></li>
+				<li><button>Op gebruikerstags</button></li>
+			</ul>
+		</section>
+		<!-- Lijst met games op filter -->
+			<div>
+				<ul>
+					<li>Nieuw en populair</li>
+					<li>Bestverkocht</li>
+					<li>Populair aankomend</li>
+					<li>Aanbiedingen</li>
+				</ul>
+			</div>
+		<section>
+			<ul>
+				<li>
+					<img src="" alt="game image">
+					<h3></h3>
+					<p></p>
+				</li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</section>
+	</main>
+	<footer>
+		<h2>Op zoek naar aanbevelingen?</h2>
+		<p>Log in om persoonlijke aanbevelingen te bekijken</p>
+		<button>Inloggen</button>
+	</footer>
 	<script src="scripts/script.js"></script>
 </body>
-	
 </html>

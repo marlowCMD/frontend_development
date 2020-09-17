@@ -43,16 +43,40 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 **Screenshot(s):**
 
 -screenshot(s) van hoe ver je bent-
+![homepage](images/homepage_week1)
+![homepage](images/gamepage_week1)
 
 ### Agenda voor meeting
 
 -samen met je groepje opstellen-
+Donderdag 17 september 16:30 uur
+Aanwezig: Britt, Aaron, Ties, Robin, Enes, Marlow
 
 ### Verslag van meeting
+Team 1, er was hier en daar wat moeite met het plaatsen van elementen,
+flexbox en margin waren niet de oplossing voor de problemen.
+Een pagina van Genius met heel veel aparte stukjes bij elkaar, voor het
+grootste deel sections gebruikt... Is dat erg? Het aantal sections maakt
+niet uit zolang je weet waarom je de sections nodig hebt en uit kan leggen.
 
 -na afloop snel uitkomsten vastleggen-
 
+## Codepen
+**Les 1: Typografie**
+Oefening 1: https://codepen.io/marlowcmd/details/YzqEPMP
+Oefening 2: https://codepen.io/marlowcmd/details/vYGWNKd
 
+**Les 2: Positioneren**
+Oefening 1: https://codepen.io/marlowcmd/pen/dyMdOro
+
+**Les 3: Flexbox**
+Oefening 1: https://codepen.io/marlowcmd/pen/xxVWzXJ
+Oefening 2: https://codepen.io/marlowcmd/details/YzqavgK
+
+**Les 4: Javascript**
+Oefening 1: https://codepen.io/marlowcmd/pen/oNxyEge
+Oefening 2.1: https://codepen.io/marlowcmd/pen/zYqLxEg
+Oefening 2.2: https://codepen.io/marlowcmd/pen/MWyBYOL
 
 ## Intake (week 1)
 
@@ -66,7 +90,6 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 **Screenshot(s):**
 
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/steamhome.png)
-![carousel](images/steamcarousel.png)
 ![gamepage](images/steamgame.png)
 
 **Breakdown-schets(en):**
