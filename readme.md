@@ -35,7 +35,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Voortgang 1 (week 3)
-index.html
+
 ### Stand van zaken
 
 -dit ging goed & dit was lastig-
