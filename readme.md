@@ -63,10 +63,12 @@ niet uit zolang je weet waarom je de sections nodig hebt en uit kan leggen.
 -na afloop snel uitkomsten vastleggen-
 
 ## Codepen
+***Week 1***
 **Les 1: Typografie**
 Oefening 1: https://codepen.io/marlowcmd/details/YzqEPMP
 Oefening 2: https://codepen.io/marlowcmd/details/vYGWNKd
 
+***Week 2***
 **Les 2: Positioneren**
 Oefening 1: https://codepen.io/marlowcmd/pen/dyMdOro
 
@@ -74,6 +76,7 @@ Oefening 1: https://codepen.io/marlowcmd/pen/dyMdOro
 Oefening 1: https://codepen.io/marlowcmd/pen/xxVWzXJ
 Oefening 2: https://codepen.io/marlowcmd/details/YzqavgK
 
+***Week 3***
 **Les 4: Javascript**
 Oefening 1: https://codepen.io/marlowcmd/pen/oNxyEge
 Oefening 2.1: https://codepen.io/marlowcmd/pen/zYqLxEg
