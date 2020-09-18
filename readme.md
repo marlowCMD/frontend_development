@@ -38,18 +38,18 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Goed: Meeste html elementen van de site waren wel makkelijk te herkennen
+en verzinnen wanneer het een div was.
+Slecht: Een aantal nieuwe manieren vinden om bepaalde elementen te laten
+zien, die ik nog niet gebruikt heb tot nu toe.
 
 **Screenshot(s):**
-
--screenshot(s) van hoe ver je bent-
 
 ![homepage](images/homepage_week1.png)
 ![homepage](images/gamepage_week1.png)
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
 Donderdag 17 september 16:30 uur
 Aanwezig: Britt, Aaron, Ties, Robin, Enes, Marlow
 
