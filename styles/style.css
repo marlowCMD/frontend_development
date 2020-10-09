@@ -9,7 +9,8 @@
 }
 
 body {
-  background-color: #2a475e;
+  /* background source https://store.cloudflare.steamstatic.com/public/images/v6/colored_body_top2.png?v=2 */
+  background: url("../images/bgimage.png") center top no-repeat #1b2838;
   color: #c7d5e0;
 }
 
@@ -57,19 +58,95 @@ section:nth-of-type(1) ul {
   justify-content: space-between;
 }
 
-#sale {
-  background-color: #66c0f4;
+section:nth-of-type(2) {
+  position: relative;
 }
 
-section:nth-of-type(2) button {
+section:nth-of-type(2) h2 {
+  font-size: 14px;
+}
+
+section:nth-of-type(2) a {
+  position: absolute;
+  right: 1em;
+  font-size: 12px;
   color: white;
-  padding: .5em;
+  padding: .2em 1em;
   background-color: transparent;
+  text-decoration: none;
   text-transform: uppercase;
+  border: 0.1em solid rgba(255,255,255,0.4);
+  border-radius: .3em;
+}
+
+#sale {
+  margin-top: 2.5em;
+  margin-left: 1em;
+}
+
+#sale h2 {
+  font-size: 16px;
+  margin: 0 0 1em 1.7em;
+  padding-top: .5em;
+}
+
+#sale img {
+  width: 306px;
+  margin-bottom: 0;
+}
+
+#saletekst {
+  background: url("../images/bg1.jpg");
+}
+
+#saletekst {
+  width: 306px;
+  height: 113.6px;
+}
+
+#saletekst div {
+  display: flex;
+}
+
+#procent {
+  margin-top: 1em;
+  margin-left: 1em;
+  padding: .1em;
+  width: 74.4px;
+  height: 34px;
+  font-size: 24px;
+  color: #a4d007;
+  background-color: #4c6b22;
+}
+
+#saletekst div div {
+  margin-top: 1.5em;
+  padding-top: .2em;
+  height: 34px;;
+  width: 56.4px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0,0,0,0.6) !important;
+}
+
+#saletekst div div p:first-of-type {
+  width: 56.4px;
+  color: #7193a6;
+  text-decoration: line-through;
+}
+
+#saletekst div div p {
+  margin-left: .8em;
+  font-size: 12px !important;
 }
 
 section:nth-of-type(2) h3, p {
   color: #FFFFFF;
+}
+
+#steamdoorzoeken h2 {
+  font-size: 14px;
+  text-transform: uppercase;
 }
 
 section:nth-of-type(2) ul {
@@ -77,12 +154,75 @@ section:nth-of-type(2) ul {
   justify-content: space-between;
 }
 
-section:nth-of-type(3) ul {
-  display: flex;
-  flex-wrap: wrap;
+#steamdoorzoeken ul {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
-section:nth-of-type(3) ul li button{
+#steamdoorzoeken li {
+  margin: .2em;
+}
 
-  background-color: #66c0f4; 
+
+#steamdoorzoeken ul li a {
+  margin: auto;
+  font-size: 18px;
+  line-height: 56px;
+  font-weight: 300;
+  padding: 1em .5em;
+  border-radius: .3em;
+  box-shadow: 0 0 4px #000000;
+  color: #FFFFFF;
+  text-decoration: none;
+  background-image: url("../images/bg1.jpg"); 
+  background-position-y: -40px;
+}
+
+#gamenav {
+  margin-top: 2em;
+  overflow-x: scroll;
+  max-height: 29px;
+  height: 29px;
+}
+
+#gamenav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  max-width: 140.8%;
+  width: 140.8%;
+  padding: 0 15px;
+  font-size: 14px;
+  height: 100%;
+  align-items: center;
+}
+
+#gamenav ul li a {
+  text-decoration: none;
+  color: #4f94bc;
+  max-width: 35.2%
+  width: 35.2%;
+  background: transparent;
+  padding: .5em;
+  border-radius: .4em .4em 0 0;
+}
+
+#gamenav ul li a {
+  color: white;
+  max-width: 35.2%
+  width: 35.2%;
+  background-color: #2a475e;
+  padding: .5em;
+  border-radius: .4em .4em 0 0;
+}
+
+#gamelijst ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#gamelijst ul li img {
+  width: 100%;
 }

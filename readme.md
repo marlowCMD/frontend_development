@@ -30,9 +30,20 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Stand van zaken
 
+Goed: De images voor bijvoorbeeld achtergronden die ik eerst niet kon
+vinden, heb ik nu wel gevonden. Dus het begint er op sommige plekken wel
+wat meer op te lijken daardoor.
+Slecht: Ik heb veel moeten doen met het plaatsen van elementen, een blok
+met een percentage bijvoorbeeld naast een afgeprijsde prijs met daaronder
+de nieuwe prijs. Ik merkte dat ik hierdoor heel veel divs heb gekregen.
 
+**Screenshot(s):**
+
+![homepage](images/homepage_voortgang2.png)
+![homepage](images/homepage_voortgang2.2.png)
+![homepage](images/homepage_voortgang2.3.png)
 
 ## Voortgang 1 (week 3)
 
@@ -60,27 +71,46 @@ Een pagina van Genius met heel veel aparte stukjes bij elkaar, voor het
 grootste deel sections gebruikt... Is dat erg? Het aantal sections maakt
 niet uit zolang je weet waarom je de sections nodig hebt en uit kan leggen.
 
--na afloop snel uitkomsten vastleggen-
-
 ## Codepen
-***Week 1***
-**Les 1: Typografie**
-Oefening 1: https://codepen.io/marlowcmd/details/YzqEPMP
-Oefening 2: https://codepen.io/marlowcmd/details/vYGWNKd
+***Week 5***
+**Les 7: Animaties**
 
-***Week 2***
-**Les 2: Positioneren**
-Oefening 1: https://codepen.io/marlowcmd/pen/dyMdOro
+Oefening 1: https://codepen.io/marlowcmd/pen/LYNvEmj
+Oefening 2: https://codepen.io/marlowcmd/pen/RwaOxWg
 
-**Les 3: Flexbox**
-Oefening 1: https://codepen.io/marlowcmd/pen/xxVWzXJ
-Oefening 2: https://codepen.io/marlowcmd/details/YzqavgK
+***Week 4***
+**Les 5: Grids**
+
+Oefening 1: https://codepen.io/marlowcmd/pen/JjXevve
+Oefening 2: https://codepen.io/marlowcmd/pen/qBZQKGN 
+
+**Les 6: Media queries**
+
+Oefening 1: https://codepen.io/marlowcmd/pen/OJNdxyV
+Oefening 2: https://codepen.io/marlowcmd/pen/BaKMrLm
 
 ***Week 3***
 **Les 4: Javascript**
+
 Oefening 1: https://codepen.io/marlowcmd/pen/oNxyEge
 Oefening 2.1: https://codepen.io/marlowcmd/pen/zYqLxEg
 Oefening 2.2: https://codepen.io/marlowcmd/pen/MWyBYOL
+
+***Week 2***
+**Les 2: Positioneren**
+
+Oefening 1: https://codepen.io/marlowcmd/pen/dyMdOro
+
+**Les 3: Flexbox**
+
+Oefening 1: https://codepen.io/marlowcmd/pen/xxVWzXJ
+Oefening 2: https://codepen.io/marlowcmd/details/YzqavgK
+
+***Week 1***
+**Les 1: Typografie**
+
+Oefening 1: https://codepen.io/marlowcmd/details/YzqEPMP
+Oefening 2: https://codepen.io/marlowcmd/details/vYGWNKd
 
 ## Intake (week 1)
 
