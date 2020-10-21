@@ -15,22 +15,43 @@
 	<header>
 		<!-- logo, hamburger menu en zoekbalk -->
 		<nav>
-			<img src="images/steammenu.png" alt="menu">
-			<a href="index.html"><img src="images/steamlogo.png" alt="Steam Logo"></a>
-			<input type="text">
+			<div>
+				<button id="hamburger"></button>
+				<a href="index.html"></a>
+			</div>
+			<input type="text" placeholder="zoeken in de winkel">
+			<!-- https://steamstore-a.akamaihd.net/public/images/v6/search_icon_btn.png -->
+			<button id="search"></button>
 		</nav>
 	</header>
 	<main>
+		<!-- hamburgermenu content -->
+		<aside>
+			<ul>
+				<li>Inloggen</li>
+				<li>Winkel</li>
+				<li>Community</li>
+				<li>Ondersteuning</li>
+				<li>Taal wijzigen</li>
+				<li>Desktopwebsite weergeven</li>
+			</ul>
+			<footer>
+				<img src="images/valvelogo.png" alt="valve logo">
+				<p>© Valve Corporation. Alle rechten voorbehouden. Alle handelsmerken zijn eigendom van
+					hun respectieve eigenaren in de Verenigde Staten en andere landen. Privacy Policy | 
+					Legal | Steam Subscriber Agreement | Refunds</p>
+			</footer>
+		</aside>
 		<!-- carousel met uitgelichte games -->
-		<section>
+		<section class="uitgelicht">
 			<h2>Uitgelicht en aanbevolen</h2>
 			<a href="game.html"><img src="images/AmongUsBanner.png" alt="Among Us banner"></a>
 			<ul>
-				<li>
-					<button><</button>
+				<li class="carouselbuttonleft">
+					<button></button>
 				</li>
-				<li>
-					<button>></button>
+				<li class="carouselbuttonright">
+					<button></button>
 				</li>
 			</ul>
 		</section>
@@ -52,26 +73,27 @@
 				</div>
 			</div>
 			<ul>
-				<li>
-					<button><</button>
+				<li class="carouselbuttonleft">
+					<button></button>
 				</li>
-				<li>
-					<button>></button>
+				<li class="carouselbuttonright">
+					<button></button>
 				</li>
 			</ul>
 			<!-- Filter blokken -->
 		</section>
-		<section id="steamdoorzoeken">
+		<a id="valveindex" href="#"><img src="images/valveindexstandard.png" alt="valve index"></a>
+		<section class="steamdoorzoeken">
 			<h2>Steam doorzoeken</h2>
 			<ul>
 				<li><a href="#">Nieuwe uitgaven</a></li>
 				<li><a href="#">Aanbiedingen</a></li>
-				<li><a href="#">Gratis Spellen</a></li>
+				<li><a href="#">Gratis spellen</a></li>
 				<li><a href="#">Op gebruikerstags</a></li>
 			</ul>
 		</section>
 		<!-- Lijst met games op filter -->
-			<nav id="gamenav">
+			<nav class="gamenav">
 				<ul>
 					<li><a href="">Nieuw en populair</a></li>
 					<li><a href="">Bestverkocht</a></li>
@@ -79,7 +101,7 @@
 					<li><a href="">Aanbiedingen</a></li>
 				</ul>
 			</nav>
-		<section id="gamelijst">
+		<section class="gamelijst">
 			<ul>
 				<li>
 					<img src="images/falconage.jpg" alt="game image">
@@ -98,6 +120,31 @@
 				<li></li>
 				<li></li>
 			</ul>
+		</section>
+		<!-- Lijstje nieuwe games -->
+		<section>
+			<h2>Updates en aanbiedingen</h2>
+			<div class="newgamelive">
+				<p>Live</p>
+				<img src="images/runescape.jpg" alt="runescape">
+				<p>Gratis te spelen</p>
+			</div>
+			<div class="newgame">
+				<img src="images/ori.jpg" alt="ori and the will of the wisps">
+				<p>
+					<span>-33%</span>
+					<span>€29,99</span>
+					<span>€20,09</span>
+				</p>
+			</div>
+			<div class="newgame">
+				<img src="images/superhot.jpg" alt="Superhot">
+				<p>
+					<span>-50%</span>
+					<span>€22,99</span>
+					<span>€11,49</span>
+				</p>
+			</div>
 		</section>
 	</main>
 	<footer>

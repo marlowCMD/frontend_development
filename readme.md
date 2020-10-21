@@ -24,9 +24,20 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+### Stand van zaken
 
+Goed: Het begint allemaal samen te komen. Veel van de stijling begint 
+op elkaar te lijken, waardoor ik met classes veel kan doen.
+Slecht: Ik was heel lang bezig met het stijlen van de header. Het was
+moeilijk omdat de images beide elke keer aangeroepen werden. Het is
+uiteindelijk met een grote omweg gelukt, classes.
 
+![homepage](images/homepage_voortgang3.png)
+![homepage](images/homepage_voortgang3.2.png)
+![homepage](images/homepage_voortgang3.3.png)
+![homepage](images/gamepage_voortgang3.png)
+![homepage](images/gamepage_voortgang3.2.png)
+![homepage](images/gamepage_voortgang3.3.png)
 
 ## Voortgang 2 (week 5)
 
@@ -72,6 +83,13 @@ grootste deel sections gebruikt... Is dat erg? Het aantal sections maakt
 niet uit zolang je weet waarom je de sections nodig hebt en uit kan leggen.
 
 ## Codepen
+
+***Week 6***
+**Les 8: Toegankelijkheid**
+
+Oefening 2.1: https://codepen.io/marlowcmd/pen/PozYPqX
+Oefening 2.2: https://codepen.io/marlowcmd/pen/eYzOZZa
+
 ***Week 5***
 **Les 7: Animaties**
 

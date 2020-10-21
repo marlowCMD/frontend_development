@@ -15,40 +15,66 @@
 	<header>
 		<!-- logo, hamburger menu en zoekbalk -->
 		<nav>
-			<img src="images/steammenu.png" alt="menu">
-			<a href="index.html"><img src="images/steamlogo.png" alt="Steam Logo"></a>
-			<input type="text">
+			<div>
+				<button id="hamburger"></button>
+				<a href="index.html"></a>
+			</div>
+			<input type="text" placeholder="zoeken in de winkel">
+			<!-- https://steamstore-a.akamaihd.net/public/images/v6/search_icon_btn.png -->
+			<button id="search"></button>
 		</nav>
 	</header>
 	<main>
+		<!-- hamburgermenu content -->
+		<aside>
+			<ul>
+				<li>Inloggen</li>
+				<li>Winkel</li>
+				<li>Community</li>
+				<li>Ondersteuning</li>
+				<li>Taal wijzigen</li>
+				<li>Desktopwebsite weergeven</li>
+			</ul>
+			<footer>
+				<img src="images/valvelogo.png" alt="valve logo">
+				<p>© Valve Corporation. Alle rechten voorbehouden. Alle handelsmerken zijn eigendom van
+					hun respectieve eigenaren in de Verenigde Staten en andere landen. Privacy Policy | 
+					Legal | Steam Subscriber Agreement | Refunds</p>
+			</footer>
+		</aside>
 		<!-- Korte beschrijving en algemene info -->
-		<section>
+		<section class="gameinfo">
 			<a href="">Alle Spellen ></a>
 			<a href="">Genre Casual ></a>
 			<a href="">Among Us</a>
-			<h2>Among Us</h2> <button>CommunityHub</button>
+			<div>
+				<h2>Among Us</h2>
+				<button>CommunityHub</button>
+			</div>
 			<img src="images/gamebanner.jpg" alt="Among Us banner">
 			<p>An online and local party game of teamwork and betrayal for 4-10 players...in space!</p>
-			<p>
-				Recente Recensies:
-				<a href="">Erg positief - 93% van de 60,748 gebrui...</a>
-			</p>
-			<p>
-				Alle Recensies:
-				<a href="">Erg positief - 93% van de 60,748 gebrui...</a>
-			</p>
-			<p>
-				Uitgavedatum:
-				<span>
-					16 nov 2018
-				</span>
-			</p>
-			<p>
-				Ontwikkelaar: <a href="">Innersloth</a>
-			</p>
-			<p>
-				Uitgever: <a href="">Innersloth</a>
-			</p>
+			<table>
+				<tr>
+					<td>Recente Recensies:</td>
+					<td><a href="#">Erg positief - 93% van de 60,748 gebrui...</a></td>
+				</tr>
+				<tr>
+					<td>Alle Recensies:</td>
+					<td><a href="">Erg positief - 93% van de 60,748 gebrui...</a></td>
+				</tr>
+				<tr>
+					<td>Uitgavedatum</td>
+					<td>16 nov 2018</td>
+				</tr>
+				<tr>
+					<td>Ontwikkelaar</td>
+					<td>Ontwikkelaar: <a href="">Innersloth</a></td>
+				</tr>
+				<tr>
+					<td>Uitgever</td>
+					<td>Ontwikkelaar: <a href="">Innersloth</a></td>
+				</tr>
+			</table>
 			<p>Populaire tags van gebruikers voor dit product:</p>
 			<ul>
 				<li><a href="">Meerdere spelers</a></li>
@@ -59,20 +85,26 @@
 		 </section>
 		 <!-- beeld van de game -->
 		 <section>
-			<img src="" alt="screenshot groot">
+			<img src="images/thumb1.jpg" alt="screenshot groot">
 			<ul>
-				<li><img src="" alt="screenshots1"></li>
-				<li><img src="" alt="screenshots1"></li>
-				<li><img src="" alt="screenshots1"></li>
-				<li><img src="" alt="screenshots1"></li>
-				<li><img src="" alt="screenshots1"></li>
-				<li><img src="" alt="screenshots1"></li>
+				<li><img src="images/thumb1.jpg" alt="screenshots1"></li>
+				<li><img src="images/thumb2.jpg" alt="screenshots2"></li>
+				<li><img src="images/thumb3.jpg" alt="screenshots3"></li>
+				<li><img src="images/thumb4.jpg" alt="screenshots4"></li>
+				<li><img src="images/thumb5.jpg" alt="screenshots5"></li>
+				<li><img src="images/thumb6.jpg" alt="screenshots6"></li>
+				<li><img src="images/thumb7.jpg" alt="screenshots7"></li>
+				<li><img src="images/thumb8.jpg" alt="screenshots8"></li>
 			</ul>
-			<div>
-				<button><img src="" alt="left"></button>
-				<img src="" alt="slider">
-				<button><img src="" alt="right"></button>
-			</div>
+				<ul class="carouselslider">
+					<li class="carouselbutton2left">
+						<button></button>
+					</li>
+					<img src="" alt="slider">
+					<li class="carouselbutton2right">
+						<button></button>
+					</li>
+				</ul>
 			<p>Log in om dit item aan je verlanglijst toe te voegen, het te volgen of om het als niet interessant te markeren</p>
 		</section>
 		<!-- Speelbaarheid specificaties -->
@@ -113,13 +145,13 @@
 			</ul>
 		</section>
 		<!-- Knoppen om te delen -->
-		<ul>
+		<ul class="deelknoppen">
 			<li><button>Delen</button></li>
 			<li><button>Insluiten</button></li>
-			<li><button><img src="" alt="rapporteren"></button></li>
+			<li><button></button></li>
 		</ul>
 		<!-- Relevantie van het spel -->
-		<section>
+		<section class="relevantie">
 			<h3>Is dit spel relevant voor jou?</h3>
 			<p>Log in om de redenen te zien waarom je dit wel of niet leuk kunt vinden, gebaseerd op je spellen, vrienden en curators die je volgt.</p>
 			<div>
@@ -160,14 +192,21 @@
 				</tr>
 			</table>
 		</section>
-		<!-- Uitgebreide game informatie -->
 		<section>
+			<h1>Among Us kopen</h1>
+			<div>
+				<p>€3,99</p>
+				<a href="#">In winkelwagen</a>
+			</div>
+		</section>
+		<!-- Uitgebreide game informatie -->
+		<section class="about">
 			<h3>Over dit spel</h3>
-			<img src="" alt="Among Us banner">
+			<img src="images/description1.png" alt="Among Us banner">
 			<p>Play with 4-10 players online or via local WiFi as you attempt to prepare your spaceship for departure, but beware as one or more random players among the Crew are Impostors bent on killing everyone!
 				Originally created as a party game, we recommend playing with friends at a LAN party or online using voice chat. Enjoy cross-platform play between Android, iOS and PC.
 			</p>
-			<img src="" alt="The Crew">
+			<img src="images/description2.png" alt="The Crew">
 			<ul>
 				<li>Win by completing tasks to prepare the ship or ejecting all Impostors.</li>
 				<li>React quickly to undo the Impostor's sabotages.</li>
@@ -176,7 +215,7 @@
 				<li>Call emergency meetings to discuss suspicious behavior.</li>
 				<li>Vote to eject suspected Impostors.</li>
 			</ul>
-			<img src="" alt="The Impostor">
+			<img src="images/description3.png" alt="The Impostor">
 			<ul>
 				<li>Kill crewmates and frame bystanders.</li>
 				<li>Pretend to run tasks to blend in with the crewmates.</li>
@@ -184,7 +223,7 @@
 				<li>Use sabotages to cause chaos and divide the crew.</li>
 				<li>Close doors to trap victims and kill in private.</li>
 			</ul>
-			<img src="" alt="Among Us characters">
+			<img src="images/description4.png" alt="Among Us characters">
 			<h4>Features</h4>
 			<ul>
 				<li>Customization: Pick your color and hat.</li>
@@ -194,6 +233,9 @@
 				<li>Rich discord integration.</li>
 				<li>Cross-platform play between PC, Android, and iOS!</li>
 			</ul>
+		</section>
+		<button class="">Meer informatie</button>
+		<section>
 			<h3>Systeemeisen</h3>
 			<p>Minimum:</p>
 			<p>
@@ -216,12 +258,176 @@
 				Opslagruimte:
 				<span>250 MB beschikbare ruimte</span>
 			</p>
+			<button>Alle</button>
+		</section>
+		<section class="suggestions">
+			<div>
+				<h2>Meer zoals dit</h2>
+				<a href="#">Alle</a>
+			</div>
+			<ul>
+				<!-- https://steamcdn-a.akamaihd.net/steam/apps/880940/capsule_184x69.jpg?t=1585242250 -->
+				<li>
+					<a href="#"><img src="images/pummelparty.jpg" alt="pummel party"></a>
+					<p>Pummel Party</p>
+					<p>€12,49</p>
+				</li>
+				<!-- https://steamcdn-a.akamaihd.net/steam/apps/1211630/capsule_184x69.jpg?t=1602789690 -->
+				<li>
+					<a href="#"><img src="images/jackbox.jpg" alt="jackbox party"></a>
+					<p>The Jackbox Party Pack 7</p>
+					<p>€24,99</p>
+				</li>
+				<!-- https://steamcdn-a.akamaihd.net/steam/apps/322330/capsule_184x69_alt_assets_21.jpg?t=1602117368 -->
+				<li>
+					<a href="#"><img src="images/dontstarve.jpg" alt="dont starve together"></a>
+					<p>Don't Starve Together</p>
+					<p>€14,99</p>
+				</li>
+			</ul>
+			<!-- carouselfunctie -->
+			<ul class= "carouselslider">
+				<li class="carouselbutton2left">
+					<button ></button>
+				</li>
+				<img src="" alt="slider">
+				<li class="carouselbutton2right">
+					<button ></button>
+				</li>
+			</ul>
+		</section>
+		<section>
+			<h2>Klantrecensies</h2>
+			<div>
+				<p>Algemene recensies</p>
+				<p>Overweldigend positief</p>
+				<span>(232,653 recensies)</span>
+				<img src="images/algemeenrecensies.png" alt="grafiek">
+			</div>
+			<div>
+				<p>Recente recensies</p>
+				<p>Overweldigend positief</p>
+				<span>(148,382 recensies)</span>
+				<img src="images/recenterecensies.png" alt="grafiek">
+			</div>
+		</section>
+		<div>
+			<p>Soort recensie</p>
+			<p>Soort aankoop</p>
+			<p>Taal</p>
+			<p>Datumbereik</p>
+			<p>Speeltijd</p>
+			<p>Weergeven als:</p>
+			<select name="" id="">
+				<option value="">Samenvatting</option>
+				<option value="">Meest behulpzaam</option>
+				<option value="">Recent</option>
+				<option value="">Grappig</option>
+			</select>
+			<button>Grafiek verbergen</button>
+		</div>
+		<p>Toont <strong>170,318</strong> recensies die met bovenstaande filters overeenkomen
+			( <span>Overweldigend positief</span> )</p>
+		<section>
+			<h2>Meest behulpzame recensies</h2>
+			<span>In de afgelopen 30 dagen</span>
+			<ul>
+				<li>
+					<div>
+						<img src="" alt="profielfoto">
+						<h4>Timotor <3</h4>
+						<p>26 producten op account</p>
+						<p>2 recensies</p>
+					</div>
+					<div>
+						<a href="#">
+							<img src="images/thumbsup.png" alt="aanbevolen">
+							<h2>Aanbevolen</h2>
+							<span>29.6 uur in totaal</span>
+						</a>
+					</div>
+					<p>
+						<span>Geplaatst: 25 september</span>
+						One of the few games which is similar to TTT (Gmod)! It's a nice game with fast rounds.
+						Be warned: This can destroy friendships! You need to lie! :)
+						It would be nice to get some sort of steam workshop integration 
+						(custom maps, custom missions). That would be awesome!
+						Maybe some sort of dedicated server support for privat games? Would fix the issue with EU servers :) 
+					</p>
+					<button>meer informatie</button>
+					<p>Was deze recensie nuttig?</p>
+					<div>
+						<button>Ja</button>
+						<button>Nee</button>
+						<button>Grappig</button>
+						<button>Prijs</button>
+					</div>
+				</li>
+				<li>
+					<div>
+						<img src="" alt="profielfoto">
+						<h4>MrMarcel</h4>
+						<p>31 producten op account</p>
+						<p>4 recensies</p>
+					</div>
+					<div>
+						<a href="#">
+							<img src="images/thumbsup.png" alt="aanbevolen">
+							<h2>Aanbevolen</h2>
+							<span>54.8 uur in totaal</span>
+						</a>
+					<div>
+					<p>
+						<span>Geplaatst: 30 september</span>
+						Blue: I saw red in vents!
+						Yellow: Yes thats true, red is the impostor!
+						Brown: Where?
+						Cyan: It's blue.
+						This will destroy friendships, but it's so nice to lie to friends!
+						Use TeamSpeak/Discord to talk with your friends but stick to the mute rule.
+						10/10! Buy it right now.
+					</p>
+					<button>meer informatie</button>
+					<p>Was deze recensie nuttig?</p>
+					<div>
+						<button>Ja</button>
+						<button>Nee</button>
+						<button>Grappig</button>
+						<button>Prijs</button>
+					</div>
+				</li>
+				<li>
+					<div>
+						<img src="" alt="profielfoto">
+						<h4>Dschulieen</h4>
+						<p>128 producten op account</p>
+						<p>10 recensies</p>
+					</div>
+					<div>
+						<a href="#">
+							<img src="images/thumbsup.png" alt="aanbevolen">
+							<h2>Aanbevolen</h2>
+							<span>19.6 uur in totaal</span>
+						</a>
+					<div>
+					<p>
+						<span>Geplaatst: 17 Okbtober</span>
+						Destroys friendship and Fallguys 10/10 would play again. 
+					</p>
+					<p>Was deze recensie nuttig?</p>
+					<div>
+						<button>Ja</button>
+						<button>Nee</button>
+						<button>Grappig</button>
+						<button>Prijs</button>
+					</div>
+				</li>
+			</ul>
+				<a href="#">Door alle recensies bladeren</a>
+			</div>
 		</section>
 	</main>
 	<footer>
-		<h2>Op zoek naar aanbevelingen?</h2>
-		<p>Log in om persoonlijke aanbevelingen te bekijken</p>
-		<button>Inloggen</button>
 	</footer>
 	<script src="scripts/script.js"></script>
 </body>
