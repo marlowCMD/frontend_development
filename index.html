@@ -25,23 +25,6 @@
 		</nav>
 	</header>
 	<main>
-		<!-- hamburgermenu content -->
-		<aside>
-			<ul>
-				<li>Inloggen</li>
-				<li>Winkel</li>
-				<li>Community</li>
-				<li>Ondersteuning</li>
-				<li>Taal wijzigen</li>
-				<li>Desktopwebsite weergeven</li>
-			</ul>
-			<footer>
-				<img src="images/valvelogo.png" alt="valve logo">
-				<p>© Valve Corporation. Alle rechten voorbehouden. Alle handelsmerken zijn eigendom van
-					hun respectieve eigenaren in de Verenigde Staten en andere landen. Privacy Policy | 
-					Legal | Steam Subscriber Agreement | Refunds</p>
-			</footer>
-		</aside>
 		<!-- carousel met uitgelichte games -->
 		<section class="uitgelicht">
 			<h2>Uitgelicht en aanbevolen</h2>
@@ -68,23 +51,10 @@
 		<ul id="aanbiedingen">
 			<li class="sale">
 				<img src="images/salegame1.jpg" alt="Game Sale">
-				<div id="saletekst">
+				<div class="saletekst">
 					<h2>Midweek madness</h2>
 					<div>
-						<p id="procent">- 30%</p>
-						<div>
-							<p>€39,99</p>
-							<p>€27,99</p>
-						</div>
-					</div>
-				</li>
-			</div>
-			<li class="sale">
-				<img src="images/ori.jpg" alt="Game Sale">
-				<div id="saletekst">
-					<h2>Midweek madness</h2>
-					<div>
-						<p id="procent">- 30%</p>
+						<p class="procent">-30%</p>
 						<div>
 							<p>€39,99</p>
 							<p>€27,99</p>
@@ -93,14 +63,27 @@
 				</div>
 			</li>
 			<li class="sale">
-				<img src="images/superhot.jpg" alt="Game Sale">
-				<div id="saletekst">
+				<img src="images/ori.jpg" alt="Game Sale">
+				<div class="saletekst">
 					<h2>Midweek madness</h2>
 					<div>
-						<p id="procent">- 30%</p>
+						<p class="procent">-33%</p>
 						<div>
-							<p>€39,99</p>
-							<p>€27,99</p>
+							<p>€29,99</p>
+							<p>€20,09</p>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="sale">
+				<img src="images/superhot.jpg" alt="Game Sale">
+				<div class="saletekst">
+					<h2>Midweek madness</h2>
+					<div>
+						<p class="procent">-57%</p>
+						<div>
+							<p>€70,97</p>
+							<p>€30,20</p>
 						</div>
 					</div>
 				</div>
@@ -114,8 +97,8 @@
 					<button></button>
 				</li>
 			</ul>
-			<!-- Filter blokken -->
 		</section>
+		<!-- Filter blokken -->
 		<a id="valveindex" href="#"><img src="images/valveindexstandard.png" alt="valve index"></a>
 		<section class="steamdoorzoeken">
 			<h2>Steam doorzoeken</h2>
@@ -138,17 +121,50 @@
 		<section class="gamelijst">
 			<ul>
 				<li>
-					<img src="images/falconage.jpg" alt="game image">
-					<h3>Falcon Age</h3>
-					<img src="" alt="windows logo">
-					<p>Ondersteunt VR</p>
-					<p>Avontuur, First-Person, Gestileerd</p>
-					<p>- 25%</p>
-					<p>€16,79</p>
-					<p>€12,59</p>
+					<div>
+						<img src="images/falconage.jpg" alt="game image">
+						<div>
+							<h3>Falcon Age</h3>
+							<p>Ondersteunt VR</p>
+							<p>Avontuur, First-Person, Gestileerd</p>
+						</div>
+						<div>
+							<p class="korting">-25%</p>
+							<span>€16,79</span>
+							<p>€12,59</p>
+						</div>
+					</div>
 				</li>
-				<li></li>
-				<li></li>
+				<li>
+					<div>
+						<!-- https://cdn.cloudflare.steamstatic.com/steam/apps/1037020/capsule_184x69_alt_assets_2.jpg?t=1603371919 -->
+						<img src="images/scourgebringer.jpg" alt="game image">
+						<div>
+							<h3>ScourgeBringer</h3>
+							<p>Indie, Actie, Avontuur, Roguelite</p>
+						</div>
+						<div>
+							<p class="korting">-15%</p>
+							<span>€16,99</span>
+							<p>€14,44</p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div>
+						<!-- https://cdn.cloudflare.steamstatic.com/steam/apps/473950/capsule_184x69.jpg?t=1603220474 -->
+						<img src="images/manifold.jpg" alt="game image">
+						<div>
+							<h3>Manifold Garden</h3>
+							<p>Puzzle, Verkennen, First Person</p>
+						</div>
+						<div>
+							<p class="korting">-20%</p>
+							<span>€15,99</span>
+							<p>€12,79</p>
+						</div>
+					</div>
+				</li>
 				<li></li>
 				<li></li>
 				<li></li>
@@ -184,7 +200,7 @@
 	<footer>
 		<h2>Op zoek naar aanbevelingen?</h2>
 		<p>Log in om persoonlijke aanbevelingen te bekijken</p>
-		<button>Inloggen</button>
+		<a href="#">Inloggen</a>
 	</footer>
 	<script src="scripts/script.js"></script>
 </body>

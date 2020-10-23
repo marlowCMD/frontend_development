@@ -6,20 +6,28 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. https://www.w3schools.com
+2. https://css-tricks.com/
+3. https://store.steampowered.com/
 
 
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+Goed: De javascript was wel te doen
+Slecht: Veel elementen waren vervelend om te positioneren
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
-
+![homepage](images/home_eind.png)
+![homepage](images/home_eind2.png)
+![homepage](images/home_eind3.png)
+![homepage](images/home_eind4.png)
+![gamepage](images/game_eind.png)
+![gamepage](images/game_eind2.png)
+![gamepage](images/game_eind3.png)
+![gamepage](images/game_eind4.png)
+![gamepage](images/game_eind5.png)
 
 
 ## Voortgang 3 (week 6)
@@ -35,9 +43,9 @@ uiteindelijk met een grote omweg gelukt, classes.
 ![homepage](images/homepage_voortgang3.png)
 ![homepage](images/homepage_voortgang3.2.png)
 ![homepage](images/homepage_voortgang3.3.png)
-![homepage](images/gamepage_voortgang3.png)
-![homepage](images/gamepage_voortgang3.2.png)
-![homepage](images/gamepage_voortgang3.3.png)
+![gamepage](images/gamepage_voortgang3.png)
+![gamepage](images/gamepage_voortgang3.2.png)
+![gamepage](images/gamepage_voortgang3.3.png)
 
 ## Voortgang 2 (week 5)
 

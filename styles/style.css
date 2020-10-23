@@ -14,11 +14,32 @@ body {
   color: #c7d5e0;
 }
 
+a:hover {
+  background-color: red;
+}
+
+li button:hover {
+  background-color: red;
+}
+
+li button:focus {
+  border: solid green;
+}
+
+li button:active {
+  background-color: blue;
+}
+
 header {
   width: 100%;
   background-color: #171a21;
   position: fixed;
   z-index: 10;
+}
+
+nav a:hover {
+  border: solid red;
+  background-color: transparent;
 }
 
 header nav {
@@ -94,11 +115,6 @@ main {
   overflow: hidden;
 }
 
-aside {
-  transform: translateX(-100%);
-  z-index: 1;
-}
-
 a {
   color: #66c0f4;
 }
@@ -118,16 +134,11 @@ h2 {
   font-weight: normal; 
   letter-spacing: 2px;
   text-transform: uppercase;
-  margin: 1em 0 .8em .5em;
+  margin: 16px 0 12.8px 8px;
 }
 
 li {
   list-style-type: none;
-}
-
-.uitgelicht {
-  margin-top: -320px;
-  border: solid red;
 }
 
 .uitgelicht h2 {
@@ -136,7 +147,7 @@ li {
   font-weight: normal; 
   letter-spacing: 2px;
   text-transform: uppercase;
-  margin: 1em 0 .8em .5em;
+  margin: 16px 0 12.8px 8px;
 }
 
 .uitgelicht a img {
@@ -156,22 +167,13 @@ li {
 }
 
 .gameinfo {
-  margin-top: -310px;
-  padding-top: 30px;
+  margin-top: -10px;
+  padding-top: 20px;
+  padding-bottom: 10px;
   /* https://steamcdn-a.akamaihd.net/steam/apps/945360/page_bg_generated_v6b.jpg?t=1598556351 */
   background-image: url("../images/gamebg.jpg");
   background-position: center top;
   background-repeat: no-repeat;
-}
-
-.gameinfo a:first-of-type {
-  margin-left: 8px;
-}
-
-.gameinfo a {
-  color: #8f98a0;
-  text-decoration: none;
-  font-size: 0.75em;
 }
 
 .gameinfo div {
@@ -181,8 +183,8 @@ li {
 }
 
 .gameinfo h2 {
-  margin: 5px 90px 0 10px;
-  font-size: 24px;
+  margin: 5px 130px 0 10px;
+  font-size: 14px;
   text-transform: capitalize;
 }
 
@@ -205,8 +207,68 @@ li {
   justify-content: center;
 }
 
+.gameinfo p {
+  font-size: 13px;
+  color: #c6d4df;
+  font-weight: normal; 
+  margin: 16px 0 12.8px 12.8px;
+}
+
+.gameinfo table td:first-of-type {
+  padding-left: 12.8px;
+  color: #556772;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.gameinfo table span {
+  color: #8f98a0;
+  font-size: 10px;
+}
+
+.gameinfo table tr:nth-of-type(3) td:first-of-type{
+  padding: 10px 0 10px 12.8px;
+  color: #556772;
+  font-size: 12px;
+}
+
+.gameinfo table tr:nth-of-type(3) td:last-of-type{
+  padding: 10px 0 10px 6px;
+  color: #8f98a0;
+  font-size: 12px;
+}
+
+.gameinfo p:last-of-type {
+  margin-bottom: 1px;
+  color: #556772;
+  font-size: 12px;
+}
+
+.gameinfo a {
+  margin-left: 8px;
+  color: #67c1f5;
+  text-decoration: none;
+  font-size: 12px;
+}
+
 .gameinfo ul {
   display: flex;
+  margin-left: 5px;
+}
+
+.gameinfo ul li:first-of-type a {
+  margin-left: 8px;
+}
+
+.gameinfo ul li:last-of-type a {
+  margin-left: 2px;
+}
+
+.gameinfo ul li a {
+  margin-left: 1px;
+  padding: 3px 8px;
+  background-color: #2a4962; 
+  border-radius: 2px;
 }
 
 section:nth-of-type(2) {
@@ -216,7 +278,6 @@ section:nth-of-type(2) {
 section:nth-of-type(2) h2 {
   font-size: 14px;
   margin-left: 15px;
-
 }
 
 section:nth-of-type(2) a {
@@ -255,32 +316,32 @@ section:nth-of-type(2) a {
   margin-bottom: 0;
 }
 
-#saletekst {
+.saletekst {
   background: url("../images/bg1.jpg");
 }
 
-#saletekst {
+.saletekst {
   width: 306px;
   height: 113.6px;
 }
 
-#saletekst div {
+.saletekst div {
   display: flex;
   margin-top: -15px;
 }
 
-#procent {
+.procent {
   margin-top: 24px;
   margin-left: 12px;
-  padding: .1em;
-  width: 74.4px;
+  padding: 1.6px .8px 1.6px 10px;
+  width: 72.8px;
   height: 34px;
   font-size: 24px;
   color: #a4d007;
   background-color: #4c6b22;
 }
 
-#saletekst div div {
+.saletekst div div {
   margin-top: 24px;
   padding-top: 3.2px;
   height: 34px;;
@@ -290,13 +351,13 @@ section:nth-of-type(2) a {
   background-color: rgba(0,0,0,0.6) !important;
 }
 
-#saletekst div div p:first-of-type {
+.saletekst div div p:first-of-type {
   width: 56.4px;
   color: #7193a6;
   text-decoration: line-through;
 }
 
-#saletekst div div p {
+.saletekst div div p {
   margin-left: .8em;
   font-size: 12px !important;
 }
@@ -374,7 +435,11 @@ section:nth-of-type(2) ul {
 
 #screenshots img {
   width: 365px;
-  margin: auto 5px;
+  margin: 5px 5px 0 5px;
+}
+
+#screenshots ul {
+  display: flex;
 }
 
 #screenshots ul:first-of-type {
@@ -396,7 +461,7 @@ section:nth-of-type(2) ul {
 
 #specs {
   width: 352px;
-  margin: 78px 8px;
+  margin: 78px 8px 5px 8px;
   padding: 10px 0 10px 10px;
   background-color: #16202d;
 }
@@ -426,22 +491,251 @@ section:nth-of-type(2) ul {
   background-color: #121a24;
 }
 
+#links {
+  width: 352px;
+  margin: 10px 8px;
+  padding: 10px 0 10px 13px;
+  background-color: #16202d;
+}
+
+#links li {
+  display: flex;
+  align-items: center;
+  width: 328.2px;
+  margin-bottom: 2px;
+  padding: 5px 15px 5px 10px;
+  background-color:#1e3141;
+  color: #7193a6;
+  font-size: 12px;
+  font-weight: 10;
+}
+
+#links li a {
+  text-decoration: none;
+}
+
+.deelknoppen {
+  width: 352px;
+  margin: 10px 8px 5px 8px;
+  padding: 10px 0;
+  display: flex;
+  background-color: #16202d;
+}
+
+.deelknoppen li:first-of-type button {
+  margin: 3px 4px 3px 12px;
+  padding: 8px 16px;
+  font-size: 0.9em;
+  color: #67c1f5;
+  border: none;
+  background-color: #264155;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.deelknoppen li button {
+  margin-top: 3px;
+  margin-right: 4px;
+  padding: 8px 18px;
+  font-size: 0.9em;
+  color: #67c1f5;
+  border: none;
+  background-color: #264155;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.deelknoppen li:last-of-type button {
+  height: 32.8px;
+  width: 50px;
+  background-image: url("../images/flag.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#relevantie {
+  width: 352px;
+  margin: 10px 8px 5px 8px;
+  padding: 10px 0;
+  background-color: #16202d;
+}
+
+#relevantie h3 {
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-left: 10px;
+}
+
+#relevantie p {
+  margin-left: 10px;
+  margin-top: 24px;
+  line-height: 22px;
+  font-size: 14px;
+  color: #acb2b8;
+}
+
+#relevantie div {
+  display: flex;
+  margin-top: 10px;
+}
+
+#relevantie div button {
+  margin: 11px 4px 3px 12px;
+  padding: 8px 16px;
+  font-size: 0.9em;
+  color: #67c1f5;
+  border: none;
+  background-color: #264155;
+  border-radius: 2px;
+  text-align: center;
+}
+
+#relevantie div p {
+  margin: 15px -8px 0px 0px;
+}
+
+#talen {
+  position: relative;
+  width: 352px;
+  margin: 10px 8px 5px 8px;
+  padding: 10px 0;
+  background-color: #16202d;
+}
+
+#talen h4 {
+  margin-left: 10px;
+  color: #8f98a0;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+#talen table {
+  margin-left: 10px;
+}
+
+#talen table th {
+  padding-right: 15px;
+  color: #556772;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+
+#talen table tr:after {
+  position: absolute;
+  left: 10px;
+  margin-top: 17px;
+  display: block;
+  content: "";
+  width: 320px;
+  height: 1px;
+  background-color: #556772;
+}
+
+#talen table td {
+  white-space: nowrap;
+  overflow: hidden;
+  color: #8f98a0;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+#talen table tr:nth-of-type(2) td {
+  white-space: nowrap;
+  overflow: hidden;
+  color: #556772;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+#talen table td:nth-of-type(2) {
+  padding-left: 16px;
+  color: #67c1f5;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+#talen p {
+  position: absolute;
+  top: 43px;
+  right: 80px;
+  color: #556772;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+#kopen {
+  position: relative;
+  width: 352px;
+  margin: 10px 8px 5px 8px;
+  padding: 14px 14px 28px 14px;
+  background: linear-gradient( -60deg, rgba(226,244,255,0.3) 5%,rgba(84, 107, 115, 0.3) 95%);
+  border-radius: 5px;
+}
+
+#kopen h2 {
+  margin: 2px 0 0 3px;
+  text-transform: none;
+  font-size: 20px;
+}
+
+#kopen div {
+  display: flex;
+}
+
+#kopen div:nth-of-type(2) {
+  position: absolute;
+  bottom: -18px;
+  right: 18px;
+  padding: 4px 3px 4px 10px;
+  background-color: #000000;
+  border-radius: 2px;
+}
+
+#kopen div p {
+  margin-top: 8px;
+  margin-right: 10px;
+  font-size: 13px;
+}
+
+#kopen div a {
+  padding: 8px 12px;
+  font-size: 13px;
+  text-decoration: none;
+  color: #d2efa9;
+  background: linear-gradient( to right, #75b022 5%, #588a1b 95%);
+  border-radius: 2px;
+}
+
+#kopen img {
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+}
+
 .carouselslider {
   display: flex;
-  width: 98%;
+  justify-content: space-between;
+  width: 90%;
+  height: 18.75px;
+  margin: 0 5%;
+  background-color: #0a1016;
 }
 
 .carouselbutton2left {
   width: 34px;
   height: 25px;
+  margin-left: -10px;
 }
 
 .carouselbutton2left button {
+  display: flex;
+  align-items: center;
   width: 100%;
   height: 75%;
   margin: auto 5px;
   border: none;
-  border-radius: 15%;
+  border-radius: 10%;
   background-color: #162431;
   /* https://steamstore-a.akamaihd.net/public/images//v6/icon_cluster_controls.png */
   background-image: url("../images/carouselarrows2left.png");
@@ -452,19 +746,31 @@ section:nth-of-type(2) ul {
 .carouselbutton2right {
   width: 34px;
   height: 25px;
+  margin-right: -5px;
 }
 
 .carouselbutton2right button {
+  display: flex;
+  align-items: center;
   width: 100%;
   height: 75%;
-  margin: auto 5px;
   border: none;
-  border-radius: 15%;
+  border-radius: 10%;
   background-color: #162431;
   /* https://steamstore-a.akamaihd.net/public/images//v6/icon_cluster_controls.png */
   background-image: url("../images/carouselarrows2right.png");
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+.slider button {
+  display: flex;
+  justify-content: flex-start;
+  width: 70px;
+  height: 18.75px;
+  background-color: #162431;
+  border: none;
+  border-radius: 2px;
 }
 
 #valveindex {
@@ -508,8 +814,6 @@ section:nth-of-type(2) ul {
   text-align: center;
   }
 
-
-
 .steamdoorzoeken ul li a {
   font-size: 18px;
   line-height: 56px;
@@ -522,8 +826,8 @@ section:nth-of-type(2) ul {
 .gamenav {
   margin-top: 2em;
   overflow-x: scroll;
-  max-height: 29px;
-  height: 29px;
+  max-height: 28px;
+  height: 28px;
 }
 
 .gamenav ul {
@@ -548,7 +852,7 @@ section:nth-of-type(2) ul {
   border-radius: .4em .4em 0 0;
 }
 
-.gamenav ul li a {
+.gamenav ul li:first-of-type a {
   color: white;
   max-width: 35.2%;
   width: 35.2%;
@@ -557,23 +861,105 @@ section:nth-of-type(2) ul {
   border-radius: .4em .4em 0 0;
 }
 
-.gamelijst ul {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+.gamelijst {
+  background-color: #2a475e;
+}
+
+.gamelijst ul li div h3 {
+  font-weight: normal;
+}
+
+.gamelijst li {
+  background-color: #1f3446;
+}
+
+.gamelijst ul li div {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.gamelijst ul li div:hover{
+  background-color: #a9cee3;
+}
+
+.gamelijst ul li div:hover h3 {
+  color: #10161b;
+}
+
+.gamelijst ul li div:hover p:last-of-type {
+  color: #263645;
+}
+
+.gamelijst ul li div:hover span {
+  color: #7193a6;
+}
+
+.gamelijst ul li div div:nth-of-type(1) {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  z-index: 0;
+  padding: 5px 0 5px 5px;
+}
+
+.gamelijst ul li div div:nth-of-type(1) p {
+  width: 98%;
+  color: #384959;
+}
+
+.gamelijst ul li div div:nth-of-type(2) {
+  margin-top: 5px;
+  padding-top: 5px;
+  padding-left: 5px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.gamelijst ul li div div:nth-of-type(2) p {
+  margin-right: 10px;
+}
+
+.gamelijst ul li div div:nth-of-type(2) span {
+  text-decoration: line-through;
+}
+
+.korting {
+  margin-left: 12px;
+  font-size: 14px;
+  color: #a4d007;
+  background-color: #4c6b22;
+}
+
+
+.gamelijst div div:first-of-type p {
+  width: 100px;
+  margin-bottom: 5px;
+  font-size: 11px;
+}
+
+.gamelijst span {
+  font-size: 14px;
 }
 
 .gamelijst ul li img {
-  width: 100%;
+  width: 118px;
+  height: 45px;
+  margin: 8px;
 }
+
+.gamelijst h3 {
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+
 
 .about {
-  margin: 0 2%;
+  position: relative;
+  margin: 44px 10px 0 10px;
   overflow: hidden;
-  height: 640px;
-}
-
-.about .expand {
-  height: 100%;
+  height: 764px;
 }
 
 .about > h3:after {
@@ -584,9 +970,97 @@ section:nth-of-type(2) ul {
   background: linear-gradient( to left, rgba( 171, 218, 244, 0) 5%,rgba( 171, 218, 244, 1) 95%);
 }
 
+.about p {
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 21px;
+  color: #75a5b8;
+}
+
+.about li {
+  margin-left: 12px;
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 21px;
+  list-style-type: square;
+  color: #acb2b8;
+}
+
+.about img:not(:first-of-type) {
+  margin-top: 20px;
+}
+
+.about:after {
+  position: absolute;
+  bottom: -88px;
+  left: 0;
+  right: 0;
+  content: "";
+  box-shadow: 0 -5px 45px 20px #000;
+  width: 100%;
+  height: 1px;
+  background-color: #2d5169;
+}
+
+#expandinfo {
+  position: relative;
+  margin-left: 264px;
+  border: none;
+  color: #537ca6;
+  text-transform: uppercase;
+  font-size: 10px;
+  background-color: transparent;
+}
+
+#eisen {
+  margin-top: 30px;
+  margin-left: 14px;
+}
+
+#eisen h3 {
+  position: relative;
+  font-size: 14px;
+  font-weight: normal;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#eisen h3:after {
+  position: absolute;
+  top: 16px;
+  left: -2px;
+  content: "";
+  width: 350px;
+  height: 1px;
+  background-color: #2d5169;
+}
+
+#eisen p:first-of-type {
+  margin-top: 12px;
+  color: #bcc6cd;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+#eisen p:not(:first-of-type) {
+  margin-top: 8px;
+  color: #61686D;
+  font-size: 12px;
+}
+
+#eisen p span {
+  color: #bcc6cd;
+}
+
+.suggestions {
+  margin-top: 50px;
+}
+
 .suggestions div {
   margin-top: 30px;
   display: flex;
+  justify-content: space-between;
 }
 
 .suggestions div h2 {
@@ -594,12 +1068,18 @@ section:nth-of-type(2) ul {
 }
 
 .suggestions div a {
+  height: 16px;
   text-decoration: none;
-  margin-right: 10px;
+  margin-right: 8px;
+  padding: 1px 5px;
+  font-size: 11px;
+  background-color: #2a475d;
 }
 
 .suggestions h2:after {
   display: block;
+  margin-top: 4px;
+  margin-bottom: 4px;
   content: "";
   height: .5px;
   width: 230%;
@@ -609,6 +1089,27 @@ section:nth-of-type(2) ul {
 .suggestions ul:first-of-type{
   display: flex;
   overflow-x: scroll;
+  margin-bottom: 5px;
+}
+
+.suggestions ul:first-of-type li {
+  margin-left: 10px;
+  padding: 16px 16px 6px 16px;
+  background-color: #16202d;
+}
+
+.suggestions ul:first-of-type li:not(:first-of-type) {
+  margin-left: 1px;
+}
+
+.suggestions ul li h4 {
+  font-weight: normal;
+  font-size: 14px;
+  color: #8f98a0;
+}
+
+.suggestions ul li p {
+  font-size: 11px;
 }
 
 .suggestions ul img {
@@ -690,4 +1191,278 @@ section:nth-of-type(2) ul {
 
 .newgame span:nth-of-type(2), span:nth-of-type(3){
   background-color: rgba(0,0,0,0.6)
+}
+
+footer {
+  height: 170px;
+  background-color: #000000;
+}
+
+footer h2 {
+  padding: 10px 0 15px 0;
+  text-transform: none;
+  font-size: 21px;
+  color: #67c1f5;
+  text-align: center;
+}
+
+footer p {
+  margin: 10px auto 20px auto;
+  width: 310.2px;
+  font-size: 15px;
+  color: #8f98a0;
+  line-height: 24px;
+  text-align: center;
+}
+
+footer a {
+  margin-left: calc(50% - 91.4px/2);
+  padding: 8px 15px;
+  text-decoration: none;
+  background: linear-gradient( to bottom, #799905 5%, #536904 95%);
+  border-radius: 2px;
+  text-align: center;
+  color: #d2e885;
+}
+
+footer a:hover {
+  margin-left: calc(50% - 91.4px/2);
+  padding: 8px 15px;
+  text-decoration: none;
+  background: linear-gradient( to bottom, #a4d007 5%, #536904 95%);
+  border-radius: 2px;
+  text-align: center;
+  color: #d2e885;
+}
+
+@media (min-width:550px) {
+
+  section h2 {
+    font-size: 18px !important;
+  }
+
+  .gameinfo h2 {
+    margin: 5px 290px 0 10px;
+  }
+
+
+  .gameinfo img {
+    width: 500px;
+  }
+
+  .gameinfo p {
+    font-size: 16px;
+  }
+
+  .gameinfo table tr td:first-of-type, .gameinfo table tr td a, .gameinfo table tr td span{
+    font-size: 14px;
+  }
+
+
+  #screenshots img {
+    width: 500px;
+  }
+
+  #screenshots ul img {
+    width: 200px;
+  }
+
+  #screenshots {
+    margin-bottom: 180px;
+  }
+
+  #specs {
+    width: 520px;
+  }
+
+  #specs li {
+    width: 450px;
+  }
+
+  #links{
+    width: 520px;
+  }
+
+  #links li {
+    width: 450px;
+  }
+
+  .deelknoppen {
+    width: 520px;
+  }
+
+  #relevantie {
+    width: 520px;
+  }
+
+  #talen {
+    width: 520px;
+  }
+
+  #talen p {
+    right: 248px;
+  }
+
+  #kopen {
+    width: 520px;
+  }
+
+  .about img {
+    width: 500px;
+  }
+
+  #eisen {
+    width: 520px;
+  }
+
+  #eisen h3:after {
+    width: 520px;
+  }
+
+  .suggestions ul img{
+    width: 230px;
+  }
+
+  .steamdoorzoeken li {
+    width: 250px;
+  }
+
+  .newgamelive {
+    width: 250px;
+  }
+
+  .newgamelive p:last-of-type{
+    font-size: 15px;
+  }
+
+  .newgamelive img {
+    width: 250px;
+  }
+
+  .newgame {
+    width: 250px;
+  }
+
+  .newgame p:last-of-type{
+    font-size: 15px;
+  }
+
+  .newgame img {
+    width: 250px;
+  }
+}
+
+@media (min-width:660px) {
+
+  section h2 {
+    font-size: 21px !important;
+  }
+
+  .gameinfo h2 {
+    margin: 5px 310px 0 10px;
+  }
+
+  .gameinfo img {
+    width: 650px;
+  }
+
+  .gameinfo p {
+    font-size: 18px;
+  }
+
+  .gameinfo table tr td:first-of-type, .gameinfo table tr td a, .gameinfo table tr td span{
+    font-size: 16px;
+  }
+
+  #screenshots img {
+    width: 650px;
+  }
+
+  #screenshots ul img {
+    width: 280px;
+  }
+
+  #screenshots {
+    margin-bottom: 312px;
+  }
+
+  #specs {
+    width: 600px;
+  }
+
+  #specs li {
+    width: 540px;
+  }
+
+  #links {
+    width: 600px;
+  }
+
+  #links li {
+    width: 540px;
+  }
+
+  .deelknoppen {
+    width: 600px;
+  }
+
+  #relevantie {
+    width: 600px;
+  }
+
+  #talen {
+    width: 600px;
+  }
+
+  #talen p {
+    right: 330px;
+  }
+
+  #kopen {
+    width: 600px;
+  }
+
+  .about img {
+    width: 630px;
+  }
+
+  #eisen {
+    width: 600px;
+  }
+
+  #eisen h3:after {
+    width: 600px;
+  }
+
+  .suggestions ul img{
+    width: 300px;
+  }
+
+  .steamdoorzoeken li {
+    width: 300px;
+  }
+
+  .newgamelive {
+    width: 300px;
+  }
+  
+  .newgamelive p:last-of-type{
+    font-size: 18px;
+  }
+
+  .newgamelive img {
+    width: 300px;
+  }
+
+  .newgame {
+    width: 300px;
+  }
+
+  .newgame p:last-of-type{
+    font-size: 18px;
+  }
+
+  .newgame img {
+    width: 300px;
+  }
 }
