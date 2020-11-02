@@ -9,7 +9,27 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 1. https://www.w3schools.com
 2. https://css-tricks.com/
 3. https://store.steampowered.com/
+4. https://stackoverflow.com/questions/17868503/on-css-if-text-line-is-break-show-dots
 
+## Herkansing (3 november)
+
+Goed: de states moesten alleen specifieker aangegeven worden. Daardoor
+werkte het uiteindelijk soepel.
+Slecht: Sommige elementen veranderen niet alleen van grootte op andere
+schermformaten, maar verplaatsen af en toe ook. Dat was even vervelend.
+
+**Screenshots(s):**
+
+![homepage](images/her.home1.png)
+![homepage](images/her.home2.png)
+![homepage](images/her.home3.png)
+![homepage](images/her.home4.png)
+![homepage](images/her.home5.png)
+![homepage](images/her.home6.png)
+![gamepage](images/her.game1.png)
+![gamepage](images/her.game2.png)
+![gamepage](images/her.game3.png)
+![gamepage](images/her.game4.png)
 
 
 ## Eindgesprek (week 7/8)
