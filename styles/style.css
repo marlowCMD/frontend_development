@@ -18,16 +18,32 @@ a:hover {
   background-color: red;
 }
 
+div button:focus {
+  border: dotted yellow;
+}
+
 li button:hover {
   background-color: red;
 }
 
 li button:focus {
-  border: solid green;
+  border: dotted yellow;
+}
+
+ul:focus {
+  border: dotted yellow;
+}
+
+ul li button:focus {
+  border: dotted yellow;
 }
 
 li button:active {
   background-color: blue;
+}
+
+section:nth-of-type(2) div a:hover {
+  border: solid white;
 }
 
 header {
@@ -38,8 +54,11 @@ header {
 }
 
 nav a:hover {
-  border: solid red;
   background-color: transparent;
+}
+
+nav a:focus {
+  border: dotted yellow;
 }
 
 header nav {
@@ -80,10 +99,19 @@ input {
   margin-left: -4.5px;
   width: 35.6px;
   height: 30.6px;
+  opacity: 75%;
   background-color: #171a21;
   background-image: url("../images/steammenu.png");
   background-size: cover;
   border: none;
+}
+
+#hamburger:hover {
+  opacity: 100%;
+}
+
+#hamburger:focus {
+  border: dotted yellow;
 }
 
 nav a {
@@ -97,6 +125,14 @@ input::placeholder {
   color: #0e1c25;
 }
 
+input:hover {
+  border: solid white;
+}
+
+input:focus {
+  border: dotted yellow;
+}
+
 #search {
   margin-top: 20px;
   position: absolute;
@@ -104,10 +140,19 @@ input::placeholder {
   top: 53px;
   width: 28px;
   height: 28px;
+  opacity: 75%;
   border: none;
   /* https://steamstore-a.akamaihd.net/public/images/v6/search_icon_btn.png */
   background: url("../images/search.png") no-repeat;
   background-size: 28px;
+}
+
+#search:hover {
+  opacity: 100%;
+}
+
+#search:focus {
+  border: dotted yellow;
 }
 
 main {
@@ -129,7 +174,7 @@ h2:nth-of-type(1) {
 }
 
 h2 {
-  font-size: 14px;
+  font-size: 0.875em;
   color: #FFFFFF;
   font-weight: normal; 
   letter-spacing: 2px;
@@ -142,7 +187,7 @@ li {
 }
 
 .uitgelicht h2 {
-  font-size: 14px;
+  font-size: 0.875em;
   color: #FFFFFF;
   font-weight: normal; 
   letter-spacing: 2px;
@@ -166,6 +211,10 @@ li {
   overflow-x: scroll;
 }
 
+.uitgelicht a:focus {
+  border: dotted yellow;
+}
+
 .gameinfo {
   margin-top: -10px;
   padding-top: 20px;
@@ -179,6 +228,7 @@ li {
 .gameinfo div {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin-top: 10px;
 }
 
@@ -195,60 +245,82 @@ li {
   border: none;
   background-image: url("../images/bg1.jpg"); 
   background-position-y: -5.5em;
+  opacity: 75%;
   width: 130px;
   height: 35px;
   border-radius: 2px;
   text-align: center;
 }
 
-.gameinfo img {
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
+.gameinfo div button:hover {
+  opacity: 100%;
 }
 
-.gameinfo p {
-  font-size: 13px;
+.gameinfo div button:focus {
+  border: dotted yellow;
+}
+
+.gameinfo div img {
+  display: flex;
+  justify-content: center;
+  width: 95%;
+}
+
+.gameinfo div:nth-of-type(2) {
+  display: grid;
+  grid-template-rows: 3fr 1fr 3fr;
+}
+
+.gameinfo div p {
+  font-size: 0.8125em;
   color: #c6d4df;
   font-weight: normal; 
-  margin: 16px 0 12.8px 12.8px;
+  margin-left: 12.8px;
+  z-index: 1;
+}
+
+.gameinfo table {
+  /* https://stackoverflow.com/questions/17868503/on-css-if-text-line-is-break-show-dots */
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .gameinfo table td:first-of-type {
   padding-left: 12.8px;
   color: #556772;
-  font-size: 10px;
+  font-size: 0.625em;
   text-transform: uppercase;
 }
 
 .gameinfo table span {
   color: #8f98a0;
-  font-size: 10px;
+  font-size: 0.625em;
 }
 
 .gameinfo table tr:nth-of-type(3) td:first-of-type{
   padding: 10px 0 10px 12.8px;
   color: #556772;
-  font-size: 12px;
+  font-size: 0.75em;
 }
 
 .gameinfo table tr:nth-of-type(3) td:last-of-type{
   padding: 10px 0 10px 6px;
   color: #8f98a0;
-  font-size: 12px;
+  font-size: 0.75em;
 }
 
 .gameinfo p:last-of-type {
   margin-bottom: 1px;
   color: #556772;
-  font-size: 12px;
+  font-size: 0.75em;
 }
 
 .gameinfo a {
   margin-left: 8px;
   color: #67c1f5;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 0.75em;
 }
 
 .gameinfo ul {
@@ -271,12 +343,16 @@ li {
   border-radius: 2px;
 }
 
+.gameinfo a:focus {
+  border: dotted yellow;
+}
+
 section:nth-of-type(2) {
   position: relative;
 }
 
 section:nth-of-type(2) h2 {
-  font-size: 14px;
+  font-size: 0.875em;
   margin-left: 15px;
 }
 
@@ -284,13 +360,17 @@ section:nth-of-type(2) a {
   position: absolute;
   padding: 3.2px 16px;
   right: 16px;
-  font-size: 12px;
+  font-size: 0.75em;
   color: white;
   background-color: transparent;
   text-decoration: none;
   text-transform: uppercase;
   border: 0.1em solid rgba(255,255,255,0.4);
   border-radius: 4.8px;
+}
+
+section:nth-of-type(2) a:focus {
+  border: dotted yellow;
 }
 
 #aanbiedingen {
@@ -304,7 +384,7 @@ section:nth-of-type(2) a {
 }
 
 .sale h2 {
-  font-size: 16px;
+  font-size: 1em;
   text-transform: uppercase;
   margin: 0 0 16px 27.2px;
   padding-top: 8px;
@@ -336,7 +416,7 @@ section:nth-of-type(2) a {
   padding: 1.6px .8px 1.6px 10px;
   width: 72.8px;
   height: 34px;
-  font-size: 24px;
+  font-size: 1.5em;
   color: #a4d007;
   background-color: #4c6b22;
 }
@@ -359,7 +439,7 @@ section:nth-of-type(2) a {
 
 .saletekst div div p {
   margin-left: .8em;
-  font-size: 12px !important;
+  font-size: 0.75em !important;
 }
 
 section:nth-of-type(2) h3, p {
@@ -429,12 +509,13 @@ section:nth-of-type(2) ul {
 }
 
 #screenshots {
-  height: 320px;
+  width: 100%;
   background-color: #080e13;
+  margin-bottom: 0;
 }
 
 #screenshots img {
-  width: 365px;
+  width: 100%;
   margin: 5px 5px 0 5px;
 }
 
@@ -454,14 +535,14 @@ section:nth-of-type(2) ul {
 #screenshots p {
   margin: 10px 0;
   padding: 15px 20px 15px 15px;
-  font-size: 12px;
+  font-size: 0.75em;
   color: #b0d4ac;
   background-color: #16202d;
 }
 
 #specs {
-  width: 352px;
-  margin: 78px 8px 5px 8px;
+  width: 95%;
+  margin: 8px 8px 5px 8px;
   padding: 10px 0 10px 10px;
   background-color: #16202d;
 }
@@ -469,19 +550,18 @@ section:nth-of-type(2) ul {
 #specs p {
   margin-bottom: 8px;
   color: #556772;
-  font-size: 12px;
+  font-size: 0.75em;
   text-transform: uppercase;
 }
 
 #specs li {
   display: flex;
   align-items: center;
-  width: 328.2px;
+  width: 95%;
   margin-bottom: 2px;
   background-color:#1a2b39;
   color: #7193a6;
-  font-size: 12px;
-  font-weight: 10;
+  font-size: 0.75em;
 }
 
 #specs img {
@@ -492,7 +572,7 @@ section:nth-of-type(2) ul {
 }
 
 #links {
-  width: 352px;
+  width: 95%;
   margin: 10px 8px;
   padding: 10px 0 10px 13px;
   background-color: #16202d;
@@ -501,21 +581,24 @@ section:nth-of-type(2) ul {
 #links li {
   display: flex;
   align-items: center;
-  width: 328.2px;
+  width: 95%;
   margin-bottom: 2px;
   padding: 5px 15px 5px 10px;
   background-color:#1e3141;
   color: #7193a6;
-  font-size: 12px;
-  font-weight: 10;
+  font-size: 0.75em;
 }
 
 #links li a {
   text-decoration: none;
 }
 
+#links li a:focus {
+  border: dotted yellow;
+}
+
 .deelknoppen {
-  width: 352px;
+  width: 95%;
   margin: 10px 8px 5px 8px;
   padding: 10px 0;
   display: flex;
@@ -527,10 +610,19 @@ section:nth-of-type(2) ul {
   padding: 8px 16px;
   font-size: 0.9em;
   color: #67c1f5;
+  opacity: 75%;
   border: none;
   background-color: #264155;
   border-radius: 2px;
   text-align: center;
+}
+
+.deelknoppen li:first-of-type button:hover {
+  opacity: 100%;
+}
+
+.deelknoppen li:first-of-type button:focus {
+  border: dotted yellow;
 }
 
 .deelknoppen li button {
@@ -539,10 +631,15 @@ section:nth-of-type(2) ul {
   padding: 8px 18px;
   font-size: 0.9em;
   color: #67c1f5;
+  opacity: 75%;
   border: none;
   background-color: #264155;
   border-radius: 2px;
   text-align: center;
+}
+
+.deelknoppen li button:hover {
+  opacity: 100%;
 }
 
 .deelknoppen li:last-of-type button {
@@ -554,14 +651,14 @@ section:nth-of-type(2) ul {
 }
 
 #relevantie {
-  width: 352px;
+  width: 95%;
   margin: 10px 8px 5px 8px;
   padding: 10px 0;
   background-color: #16202d;
 }
 
 #relevantie h3 {
-  font-size: 16px;
+  font-size: 1em;
   color: #FFFFFF;
   margin-left: 10px;
 }
@@ -570,7 +667,7 @@ section:nth-of-type(2) ul {
   margin-left: 10px;
   margin-top: 24px;
   line-height: 22px;
-  font-size: 14px;
+  font-size: 0.875em;
   color: #acb2b8;
 }
 
@@ -584,10 +681,19 @@ section:nth-of-type(2) ul {
   padding: 8px 16px;
   font-size: 0.9em;
   color: #67c1f5;
+  opacity: 75%;
   border: none;
   background-color: #264155;
   border-radius: 2px;
   text-align: center;
+}
+
+#relevantie button:hover {
+  opacity: 100%;
+}
+
+#relevantie button:focus {
+  border: dotted yellow;
 }
 
 #relevantie div p {
@@ -596,7 +702,7 @@ section:nth-of-type(2) ul {
 
 #talen {
   position: relative;
-  width: 352px;
+  width: 95%;
   margin: 10px 8px 5px 8px;
   padding: 10px 0;
   background-color: #16202d;
@@ -606,7 +712,7 @@ section:nth-of-type(2) ul {
   margin-left: 10px;
   color: #8f98a0;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 0.75em;
 }
 
 #talen table {
@@ -617,7 +723,7 @@ section:nth-of-type(2) ul {
   padding-right: 15px;
   color: #556772;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 0.75em;
 }
 
 
@@ -637,7 +743,7 @@ section:nth-of-type(2) ul {
   overflow: hidden;
   color: #8f98a0;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 0.75em;
 }
 
 #talen table tr:nth-of-type(2) td {
@@ -645,28 +751,28 @@ section:nth-of-type(2) ul {
   overflow: hidden;
   color: #556772;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 0.75em;
 }
 
 #talen table td:nth-of-type(2) {
   padding-left: 16px;
   color: #67c1f5;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 0.75em;
 }
 
 #talen p {
   position: absolute;
   top: 43px;
-  right: 80px;
+  left: 180px;
   color: #556772;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 0.75em;
 }
 
 #kopen {
   position: relative;
-  width: 352px;
+  width: 95%;
   margin: 10px 8px 5px 8px;
   padding: 14px 14px 28px 14px;
   background: linear-gradient( -60deg, rgba(226,244,255,0.3) 5%,rgba(84, 107, 115, 0.3) 95%);
@@ -676,7 +782,7 @@ section:nth-of-type(2) ul {
 #kopen h2 {
   margin: 2px 0 0 3px;
   text-transform: none;
-  font-size: 20px;
+  font-size: 1.25em;
 }
 
 #kopen div {
@@ -692,6 +798,10 @@ section:nth-of-type(2) ul {
   border-radius: 2px;
 }
 
+#kopen div:nth-of-type(2) a:focus {
+  background: linear-gradient( to bottom, #a4d007 5%, #536904 95%);
+}
+
 #kopen div p {
   margin-top: 8px;
   margin-right: 10px;
@@ -700,11 +810,15 @@ section:nth-of-type(2) ul {
 
 #kopen div a {
   padding: 8px 12px;
-  font-size: 13px;
+  font-size: 0.8125em;
   text-decoration: none;
   color: #d2efa9;
   background: linear-gradient( to right, #75b022 5%, #588a1b 95%);
   border-radius: 2px;
+}
+
+#kopen div a:hover {
+  background: linear-gradient( to bottom, #a4d007 5%, #536904 95%);
 }
 
 #kopen img {
@@ -714,7 +828,6 @@ section:nth-of-type(2) ul {
 }
 
 .carouselslider {
-  display: flex;
   justify-content: space-between;
   width: 90%;
   height: 18.75px;
@@ -780,15 +893,24 @@ section:nth-of-type(2) ul {
 }
 
 #valveindex img {
-  max-width: 200%;
+  height: 100%;
+  max-height: 77px;
   width: 200%;
   border-style: solid none;
   border-color: #1b2838;
   box-shadow: 0 0 .3em 0 #000000;
 }
 
+#valveindex:hover {
+  opacity: 75%;
+}
+
+#valveindex:focus {
+  border: dotted yellow;
+}
+
 .steamdoorzoeken h2 {
-  font-size: 14px;
+  font-size: 0.875em;
   color: #FFFFFF;
   font-weight: normal; 
   letter-spacing: 2px;
@@ -807,20 +929,23 @@ section:nth-of-type(2) ul {
 
 .steamdoorzoeken li {
   background-image: url("../images/bg1.jpg"); 
-  background-position-y: -5.5em;
+  background-position-y: -88px;
   box-shadow: 0 0 4px #000000;
-  width: 170px;
+  width: 102%;
   border-radius: .2em;
   text-align: center;
   }
 
 .steamdoorzoeken ul li a {
-  font-size: 18px;
+  font-size: 1.125em;
   line-height: 56px;
   font-weight: 300;
-  padding: 1em .5em;
   color: #66b7d3;
   text-decoration: none;
+}
+
+.steamdoorzoeken a:focus {
+  border: dotted yellow;
 }
 
 .gamenav {
@@ -833,20 +958,22 @@ section:nth-of-type(2) ul {
 .gamenav ul {
   display: flex;
   list-style: none;
-  justify-content: space-between;
-  max-width: 140.8%;
-  width: 140.8%;
+  max-width: 120%;
+  width: 120%;
   padding: 0 15px;
-  font-size: 14px;
+  font-size: 0.875em;
   height: 100%;
   align-items: center;
 }
 
+.gamenav:focus {
+  border: dotted yellow;
+}
+
 .gamenav ul li a {
+  font-size: 0.875em;
   text-decoration: none;
   color: #4f94bc;
-  max-width: 35.2%;
-  width: 35.2%;
   background: transparent;
   padding: .5em;
   border-radius: .4em .4em 0 0;
@@ -911,7 +1038,7 @@ section:nth-of-type(2) ul {
   margin-top: 5px;
   padding-top: 5px;
   padding-left: 5px;
-  font-size: 14px;
+  font-size: 0.875em;
   display: flex;
   flex-direction: column;
   z-index: 1;
@@ -927,7 +1054,7 @@ section:nth-of-type(2) ul {
 
 .korting {
   margin-left: 12px;
-  font-size: 14px;
+  font-size: 0.875em;
   color: #a4d007;
   background-color: #4c6b22;
 }
@@ -936,21 +1063,21 @@ section:nth-of-type(2) ul {
 .gamelijst div div:first-of-type p {
   width: 100px;
   margin-bottom: 5px;
-  font-size: 11px;
+  font-size: 0.6875em;
 }
 
 .gamelijst span {
-  font-size: 14px;
+  font-size: 0.875em;
 }
 
 .gamelijst ul li img {
-  width: 118px;
-  height: 45px;
+  width: 30%;
+  height: 20%;
   margin: 8px;
 }
 
 .gamelijst h3 {
-  font-size: 18px;
+  font-size: 1.125em;
   margin-bottom: 2px;
 }
 
@@ -972,7 +1099,7 @@ section:nth-of-type(2) ul {
 
 .about p {
   margin-top: 20px;
-  font-size: 14px;
+  font-size: 0.875em;
   line-height: 21px;
   color: #75a5b8;
 }
@@ -980,7 +1107,7 @@ section:nth-of-type(2) ul {
 .about li {
   margin-left: 12px;
   margin-top: 10px;
-  font-size: 14px;
+  font-size: 0.875em;
   line-height: 21px;
   list-style-type: square;
   color: #acb2b8;
@@ -1003,13 +1130,21 @@ section:nth-of-type(2) ul {
 }
 
 #expandinfo {
-  position: relative;
-  margin-left: 264px;
+  margin-left: 73%;
   border: none;
   color: #537ca6;
+  opacity: 75%;
   text-transform: uppercase;
-  font-size: 10px;
+  font-size: 0.625em;
   background-color: transparent;
+}
+
+#expandinfo:hover {
+  opacity: 100%;
+}
+
+#expandinfo:focus {
+  border: dotted yellow;
 }
 
 #eisen {
@@ -1019,7 +1154,7 @@ section:nth-of-type(2) ul {
 
 #eisen h3 {
   position: relative;
-  font-size: 14px;
+  font-size: 0.875em;
   font-weight: normal;
   color: #FFFFFF;
   letter-spacing: 2px;
@@ -1031,7 +1166,7 @@ section:nth-of-type(2) ul {
   top: 16px;
   left: -2px;
   content: "";
-  width: 350px;
+  width: 98%;
   height: 1px;
   background-color: #2d5169;
 }
@@ -1046,7 +1181,7 @@ section:nth-of-type(2) ul {
 #eisen p:not(:first-of-type) {
   margin-top: 8px;
   color: #61686D;
-  font-size: 12px;
+  font-size: 0.75em;
 }
 
 #eisen p span {
@@ -1072,8 +1207,17 @@ section:nth-of-type(2) ul {
   text-decoration: none;
   margin-right: 8px;
   padding: 1px 5px;
-  font-size: 11px;
+  font-size: 0.6875em;
   background-color: #2a475d;
+  opacity: 75%;
+}
+
+.suggestions a:hover {
+  opacity: 100%;
+}
+
+.suggestions a:focus {
+  border: dotted yellow;
 }
 
 .suggestions h2:after {
@@ -1090,6 +1234,7 @@ section:nth-of-type(2) ul {
   display: flex;
   overflow-x: scroll;
   margin-bottom: 5px;
+  width: 100%;
 }
 
 .suggestions ul:first-of-type li {
@@ -1104,16 +1249,22 @@ section:nth-of-type(2) ul {
 
 .suggestions ul li h4 {
   font-weight: normal;
-  font-size: 14px;
+  font-size: 0.875em;
   color: #8f98a0;
 }
 
 .suggestions ul li p {
-  font-size: 11px;
+  font-size: 0.6875em;
 }
 
 .suggestions ul img {
   width: 171px;
+  max-width: 171px;
+}
+
+.suggestions ul:last-of-type {
+  display: flex;
+  justify-content: space-between;
 }
 
 .newgamelive {
@@ -1131,11 +1282,11 @@ section:nth-of-type(2) ul {
 }
 
 .newgamelive img {
-  width: 173px;
+  width: 100%;
 }
 
 .newgame img {
-  width: 173px;
+  width: 100%;
 }
 
 .newgamelive p:first-of-type {
@@ -1144,7 +1295,7 @@ section:nth-of-type(2) ul {
   padding: 3px 8px 3px 3px;
   margin: 3px 0 0 3px;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 0.75em;
   background-color: black;
 }
 
@@ -1162,14 +1313,14 @@ section:nth-of-type(2) ul {
   margin: 4px 3px 5px 0;
   padding: 0 3px 6px 3px;
   text-align: end;
-  font-size: 11px;
+  font-size: 0.6875em;
 }
 
 .newgame p {  
   margin: 4px 3px 5px 0;
   padding: 0 3px 6px 3px;
   text-align: end;
-  font-size: 11px;
+  font-size: 0.6875em;
 
 }
 
@@ -1201,7 +1352,7 @@ footer {
 footer h2 {
   padding: 10px 0 15px 0;
   text-transform: none;
-  font-size: 21px;
+  font-size: 0.9375em;
   color: #67c1f5;
   text-align: center;
 }
@@ -1209,7 +1360,7 @@ footer h2 {
 footer p {
   margin: 10px auto 20px auto;
   width: 310.2px;
-  font-size: 15px;
+  font-size: 0.9375em;
   color: #8f98a0;
   line-height: 24px;
   text-align: center;
@@ -1235,234 +1386,138 @@ footer a:hover {
   color: #d2e885;
 }
 
+footer a:focus {
+  border: dotted yellow;
+}
+
+@media (min-width: 420px) {
+
+  section:last-of-type ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .gameinfo div:nth-of-type(2) {
+    display: grid;
+    grid-template-rows: 1fr 3fr ;
+    grid-template-columns: 50% 50%;
+  }
+
+  .gameinfo div img {
+    grid-row-start: 1;
+    grid-row-end: 4;
+    width: 90%;
+  }
+
+  .gameinfo div:nth-of-type(2) p:first-of-type  {
+    font-size: 0.875em;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+  }
+
+  .gameinfo div:nth-of-type(2) p:last-of-type  {
+    font-size: 0.75em;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .gameinfo div:nth-of-type(2) ul {
+    width: 200%;
+    grid-row-start: 6;
+    grid-row-end: 6;
+  }
+
+  .gameinfo div:nth-of-type(2) table {
+    grid-row-start: 4;
+  }
+
+  .suggestions ul:first-of-type {
+    flex-wrap: nowrap;
+  }
+
+  .carouselslider {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
 @media (min-width:550px) {
 
   section h2 {
-    font-size: 18px !important;
+    font-size: 1.125em !important;
   }
 
   .gameinfo h2 {
     margin: 5px 290px 0 10px;
   }
 
-
-  .gameinfo img {
-    width: 500px;
+  .gameinfo p, table tr td:first-of-type, .gameinfo table tr td a, .gameinfo table tr td span{
+    font-size: 0.625em;
   }
 
-  .gameinfo p {
-    font-size: 16px;
-  }
-
-  .gameinfo table tr td:first-of-type, .gameinfo table tr td a, .gameinfo table tr td span{
-    font-size: 14px;
-  }
-
-
-  #screenshots img {
-    width: 500px;
-  }
-
-  #screenshots ul img {
-    width: 200px;
-  }
-
-  #screenshots {
-    margin-bottom: 180px;
-  }
-
-  #specs {
-    width: 520px;
-  }
-
-  #specs li {
-    width: 450px;
-  }
-
-  #links{
-    width: 520px;
-  }
-
-  #links li {
-    width: 450px;
-  }
-
-  .deelknoppen {
-    width: 520px;
-  }
-
-  #relevantie {
-    width: 520px;
-  }
-
-  #talen {
-    width: 520px;
+  .gameinfo table {
+    grid-column-start: 2;
+    grid-row-start: 3 !important;
   }
 
   #talen p {
-    right: 248px;
+    left: 200px;
   }
 
-  #kopen {
-    width: 520px;
+  #valveindex img {
+    width: 150%;
   }
 
   .about img {
     width: 500px;
   }
 
-  #eisen {
-    width: 520px;
-  }
-
-  #eisen h3:after {
-    width: 520px;
-  }
-
-  .suggestions ul img{
-    width: 230px;
-  }
-
-  .steamdoorzoeken li {
-    width: 250px;
-  }
-
-  .newgamelive {
-    width: 250px;
-  }
-
-  .newgamelive p:last-of-type{
-    font-size: 15px;
-  }
-
-  .newgamelive img {
-    width: 250px;
-  }
-
-  .newgame {
-    width: 250px;
-  }
-
-  .newgame p:last-of-type{
-    font-size: 15px;
-  }
-
-  .newgame img {
-    width: 250px;
+  .steamdoorzoeken ul {
+    grid-gap: 15px 10px;
   }
 }
 
 @media (min-width:660px) {
 
   section h2 {
-    font-size: 21px !important;
+    font-size: 1.3125em !important;
   }
 
   .gameinfo h2 {
     margin: 5px 310px 0 10px;
   }
 
-  .gameinfo img {
-    width: 650px;
-  }
-
   .gameinfo p {
-    font-size: 18px;
+    font-size: 1.125em;
   }
 
   .gameinfo table tr td:first-of-type, .gameinfo table tr td a, .gameinfo table tr td span{
-    font-size: 16px;
-  }
-
-  #screenshots img {
-    width: 650px;
-  }
-
-  #screenshots ul img {
-    width: 280px;
-  }
-
-  #screenshots {
-    margin-bottom: 312px;
-  }
-
-  #specs {
-    width: 600px;
-  }
-
-  #specs li {
-    width: 540px;
-  }
-
-  #links {
-    width: 600px;
-  }
-
-  #links li {
-    width: 540px;
-  }
-
-  .deelknoppen {
-    width: 600px;
-  }
-
-  #relevantie {
-    width: 600px;
-  }
-
-  #talen {
-    width: 600px;
-  }
-
-  #talen p {
-    right: 330px;
-  }
-
-  #kopen {
-    width: 600px;
-  }
+    font-size: 0.75em;
+  } 
 
   .about img {
     width: 630px;
   }
 
-  #eisen {
-    width: 600px;
+  .steamdoorzoeken ul {
+    grid-gap: 20px 15px;
   }
 
-  #eisen h3:after {
-    width: 600px;
+  #valveindex img {
+    width: 100%;
   }
 
-  .suggestions ul img{
-    width: 300px;
-  }
-
-  .steamdoorzoeken li {
-    width: 300px;
+  section:last-of-type ul {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
   }
 
   .newgamelive {
-    width: 300px;
-  }
-  
-  .newgamelive p:last-of-type{
-    font-size: 18px;
-  }
-
-  .newgamelive img {
-    width: 300px;
-  }
-
-  .newgame {
-    width: 300px;
-  }
-
-  .newgame p:last-of-type{
-    font-size: 18px;
-  }
-
-  .newgame img {
-    width: 300px;
+    width: 368px;
+    grid-row-start: 1;
+    grid-row-end: 3;
   }
 }
