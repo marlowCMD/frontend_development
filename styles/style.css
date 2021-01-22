@@ -12,6 +12,8 @@ body {
   /* background source https://store.cloudflare.steamstatic.com/public/images/v6/colored_body_top2.png?v=2 */
   background: url("../images/bgimage.png") center top no-repeat #1b2838;
   color: #c7d5e0;
+  margin: auto;
+  max-width: 1080px;
 }
 
 a:hover {
@@ -47,6 +49,8 @@ section:nth-of-type(2) div a:hover {
 }
 
 header {
+  margin: auto;
+  max-width: 1080px;
   width: 100%;
   background-color: #171a21;
   position: fixed;
